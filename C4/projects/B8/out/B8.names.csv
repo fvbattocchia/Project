@@ -1,0 +1,375 @@
+projects/B8/out/B8.elf:100000ac 00000001 b debugPrint
+projects/B8/out/B8.elf:100000b0 00000004 b heap_end.5864
+projects/B8/out/B8.elf:100000b8 00002000 b ucHeap
+projects/B8/out/B8.elf:100000b4 00000004 b pucAlignedHeap.11512
+projects/B8/out/B8.elf:100020b8 00000004 b xNextFreeByte
+projects/B8/out/B8.elf:1a000702 0000001e t prvIsQueueFull
+projects/B8/out/B8.elf:1a000720 0000001a t prvIsQueueEmpty
+projects/B8/out/B8.elf:1a00073a 00000076 t prvCopyDataToQueue
+projects/B8/out/B8.elf:1a0007b0 00000024 t prvCopyDataFromQueue
+projects/B8/out/B8.elf:1a0007d4 0000006e t prvUnlockQueue
+projects/B8/out/B8.elf:1a0008c8 00000022 t prvInitialiseNewQueue
+projects/B8/out/B8.elf:1a000e4c 0000002c t prvResetNextTaskUnblockTime
+projects/B8/out/B8.elf:1a000e78 00000012 t prvDeleteTCB
+projects/B8/out/B8.elf:1a000e8a 00000090 t prvInitialiseNewTask
+projects/B8/out/B8.elf:1a000f1c 00000068 t prvInitialiseTaskLists
+projects/B8/out/B8.elf:1a000f84 000000ac t prvAddNewTaskToReadyList
+projects/B8/out/B8.elf:1a001030 0000004c t prvCheckTasksWaitingTermination
+projects/B8/out/B8.elf:1a00107c 00000028 t prvIdleTask
+projects/B8/out/B8.elf:1a0010a4 00000098 t prvAddCurrentTaskToDelayedList
+projects/B8/out/B8.elf:100020c0 00000004 b pxDelayedTaskList
+projects/B8/out/B8.elf:100020c4 00000004 b pxOverflowDelayedTaskList
+projects/B8/out/B8.elf:100020c8 0000008c b pxReadyTasksLists
+projects/B8/out/B8.elf:10002154 00000004 b uxCurrentNumberOfTasks
+projects/B8/out/B8.elf:10002158 00000004 b uxDeletedTasksWaitingCleanUp
+projects/B8/out/B8.elf:1000215c 00000004 b uxPendedTicks
+projects/B8/out/B8.elf:10002160 00000004 b uxSchedulerSuspended
+projects/B8/out/B8.elf:10002164 00000004 b uxTaskNumber
+projects/B8/out/B8.elf:10002168 00000004 b uxTopReadyPriority
+projects/B8/out/B8.elf:1000216c 00000014 b xDelayedTaskList1
+projects/B8/out/B8.elf:10002180 00000014 b xDelayedTaskList2
+projects/B8/out/B8.elf:10002194 00000004 b xIdleTaskHandle
+projects/B8/out/B8.elf:10002198 00000004 b xNextTaskUnblockTime
+projects/B8/out/B8.elf:1000219c 00000004 b xNumOfOverflows
+projects/B8/out/B8.elf:100021a0 00000014 b xPendingReadyList
+projects/B8/out/B8.elf:100021b4 00000004 b xSchedulerRunning
+projects/B8/out/B8.elf:100021b8 00000014 b xSuspendedTaskList
+projects/B8/out/B8.elf:100021cc 00000014 b xTasksWaitingTermination
+projects/B8/out/B8.elf:100021e0 00000004 b xTickCount
+projects/B8/out/B8.elf:100021e4 00000004 b xYieldPending
+projects/B8/out/B8.elf:1a001880 00000020 t prvGetNextExpireTime
+projects/B8/out/B8.elf:1a0018a0 00000048 t prvInsertTimerInActiveList
+projects/B8/out/B8.elf:1a0018e8 0000005c t prvCheckForValidListAndQueue
+projects/B8/out/B8.elf:1a001c6c 00000016 t prvTimerTask
+projects/B8/out/B8.elf:1a001a00 00000078 t prvSwitchTimerLists
+projects/B8/out/B8.elf:1a001a78 0000002c t prvSampleTimeNow
+projects/B8/out/B8.elf:1a001aa4 00000060 t prvProcessExpiredTimer
+projects/B8/out/B8.elf:1a001b04 00000074 t prvProcessTimerOrBlockTask
+projects/B8/out/B8.elf:1a001b78 000000f4 t prvProcessReceivedCommands
+projects/B8/out/B8.elf:100021e8 00000004 b pxCurrentTimerList
+projects/B8/out/B8.elf:100021ec 00000004 b pxOverflowTimerList
+projects/B8/out/B8.elf:100021f0 00000014 b xActiveTimerList1
+projects/B8/out/B8.elf:10002204 00000014 b xActiveTimerList2
+projects/B8/out/B8.elf:10002218 00000004 b xLastTime.11818
+projects/B8/out/B8.elf:1000221c 00000004 b xTimerQueue
+projects/B8/out/B8.elf:10002220 00000004 b xTimerTaskHandle
+projects/B8/out/B8.elf:1a001c84 00000040 t prvTaskExitError
+projects/B8/out/B8.elf:1a001cc4 00000022 t prvPortStartFirstTask
+projects/B8/out/B8.elf:1a001cec 0000000e t vPortEnableVFP
+projects/B8/out/B8.elf:1a001d50 t pxCurrentTCBConst2
+projects/B8/out/B8.elf:1a001e30 t pxCurrentTCBConst
+projects/B8/out/B8.elf:10002224 00000001 b ucMaxSysCallPriority
+projects/B8/out/B8.elf:10002228 00000004 b ulMaxPRIGROUPValue
+projects/B8/out/B8.elf:10000008 00000004 d uxCriticalNesting
+projects/B8/out/B8.elf:1a002024 00000044 t Board_LED_Init
+projects/B8/out/B8.elf:1a002068 00000040 t Board_TEC_Init
+projects/B8/out/B8.elf:1a0020a8 00000040 t Board_GPIO_Init
+projects/B8/out/B8.elf:1a0020e8 00000030 t Board_ADC_Init
+projects/B8/out/B8.elf:1a002118 00000038 t Board_SPI_Init
+projects/B8/out/B8.elf:1a002150 00000024 t Board_I2C_Init
+projects/B8/out/B8.elf:1a004554 00000008 t GpioButtons
+projects/B8/out/B8.elf:1a00455c 0000000c t GpioLeds
+projects/B8/out/B8.elf:1a004568 00000012 t GpioPorts
+projects/B8/out/B8.elf:1a004580 00000004 t InitClkStates
+projects/B8/out/B8.elf:1a004584 00000074 t pinmuxing
+projects/B8/out/B8.elf:1000000c 00000038 d i2c
+projects/B8/out/B8.elf:1a002340 0000002c t Chip_UART_GetIndex
+projects/B8/out/B8.elf:1a0045f8 00000008 t UART_BClock
+projects/B8/out/B8.elf:1a004600 00000008 t UART_PClock
+projects/B8/out/B8.elf:1a0024dc 00000014 t Chip_ADC_GetClockIndex
+projects/B8/out/B8.elf:1a0024f0 00000032 t getClkDiv
+projects/B8/out/B8.elf:1a0025b8 000000a0 t pll_calc_divs
+projects/B8/out/B8.elf:1a002658 0000010c t pll_get_frac
+projects/B8/out/B8.elf:1a002764 0000004c t Chip_Clock_FindBaseClock
+projects/B8/out/B8.elf:1a0029d8 00000022 t Chip_Clock_GetDivRate
+projects/B8/out/B8.elf:10002230 00000008 b audio_usb_pll_freq
+projects/B8/out/B8.elf:1a004614 0000006c t periph_to_base
+projects/B8/out/B8.elf:1a004680 00000048 t InitClkStates
+projects/B8/out/B8.elf:1a002ca0 00000014 t Chip_SSP_GetClockIndex
+projects/B8/out/B8.elf:1a002cb4 00000018 t Chip_SSP_GetPeriphClockIndex
+projects/B8/out/B8.elf:10000044 00000004 d ClockSpeed
+projects/B8/out/B8.elf:1a0046c8 00000048 t lpcUarts
+projects/B8/out/B8.elf:1a002e24 00000034 t gpioObtainPinInit
+projects/B8/out/B8.elf:10002238 00000004 b g_hUsb
+projects/B8/out/B8.elf:1a0035f8 00000048 t std
+projects/B8/out/B8.elf:1a0039ac 0000002e t __sfputc_r
+projects/B8/out/B8.elf:1000004c 00000060 d impure_data
+projects/B8/out/B8.elf:1a004894 t __init_array_end
+projects/B8/out/B8.elf:1a004890 b __preinit_array_end
+projects/B8/out/B8.elf:1a004890 t __init_array_start
+projects/B8/out/B8.elf:1a004890 b __preinit_array_start
+projects/B8/out/B8.elf:1a0027fc 0000001c T Chip_Clock_GetDividerSource
+projects/B8/out/B8.elf:1a0005c8 00000012 T _isatty_r
+projects/B8/out/B8.elf:1a00046c 00000012 T buttonReleased
+projects/B8/out/B8.elf:1a004126 00000010 T strcpy
+projects/B8/out/B8.elf:1a003f94 000000dc T _puts_r
+projects/B8/out/B8.elf:1a0001ba 00000002 W TIMER2_IRQHandler
+projects/B8/out/B8.elf:1a0005da 0000000a T _lseek_r
+projects/B8/out/B8.elf:1a000184 00000002 W DebugMon_Handler
+projects/B8/out/B8.elf:1a0001ba 00000002 W RIT_IRQHandler
+projects/B8/out/B8.elf:1a080000 A __top_MFlashA512
+projects/B8/out/B8.elf:1a0001ba 00000002 W ADCHS_IRQHandler
+projects/B8/out/B8.elf:1a000114 T __section_table_start
+projects/B8/out/B8.elf:1a0001ba 00000002 W FLASH_EEPROM_IRQHandler
+projects/B8/out/B8.elf:1a001d98 0000002c T vPortExitCritical
+projects/B8/out/B8.elf:1a0001ba 00000002 W I2C0_IRQHandler
+projects/B8/out/B8.elf:1a003f64 00000030 T printf
+projects/B8/out/B8.elf:1a00220a 00000008 T __stdio_init
+projects/B8/out/B8.elf:100022ec 00000001 B __lock___atexit_recursive_mutex
+projects/B8/out/B8.elf:1a0040da 00000024 T __sseek
+projects/B8/out/B8.elf:1a0036a8 00000070 T __sinit
+projects/B8/out/B8.elf:1a004138 000000a4 T __swbuf_r
+projects/B8/out/B8.elf:1a00017a 00000002 W HardFault_Handler
+projects/B8/out/B8.elf:1a000d08 00000052 T vQueueWaitForMessageRestricted
+projects/B8/out/B8.elf:1a00364c 0000002c T __sfmoreglue
+projects/B8/out/B8.elf:1a000000 A __vectors_start__
+projects/B8/out/B8.elf:1a002596 0000000c T Chip_ADC_SetResolution
+projects/B8/out/B8.elf:1a00442c 0000000c T __malloc_unlock
+projects/B8/out/B8.elf:1a001e34 0000002c T SysTick_Handler
+projects/B8/out/B8.elf:1a0023c0 00000040 T Chip_UART_SetBaud
+projects/B8/out/B8.elf:100022ed 00000001 B __lock___arc4random_mutex
+projects/B8/out/B8.elf:1a000524 00000002 W initialise_monitor_handles
+projects/B8/out/B8.elf:1a0001ba 00000002 W SDIO_IRQHandler
+projects/B8/out/B8.elf:1a0021ac 0000001c T Board_UARTGetChar
+projects/B8/out/B8.elf:1a0001ba 00000002 W ATIMER_IRQHandler
+projects/B8/out/B8.elf:1a001dd0 00000064 T PendSV_Handler
+projects/B8/out/B8.elf:1a000ab4 000000ce T xQueueGenericSendFromISR
+projects/B8/out/B8.elf:1a000178 00000002 W NMI_Handler
+projects/B8/out/B8.elf:1a00489c R __exidx_end
+projects/B8/out/B8.elf:1a000150 T __data_section_table_end
+projects/B8/out/B8.elf:1a0001ba 00000002 W I2C1_IRQHandler
+projects/B8/out/B8.elf:1a0001ba 00000002 W UART1_IRQHandler
+projects/B8/out/B8.elf:1a0001ba 00000002 W GPIO5_IRQHandler
+projects/B8/out/B8.elf:1a0001ba 00000002 W CAN1_IRQHandler
+projects/B8/out/B8.elf:100020bc 00000004 B pxCurrentTCB
+projects/B8/out/B8.elf:1a0005be 0000000a T _fstat_r
+projects/B8/out/B8.elf:53ff7366 A __valid_user_code_checksum
+projects/B8/out/B8.elf:1a00489c R _etext
+projects/B8/out/B8.elf:1a0001ba 00000002 W USB1_IRQHandler
+projects/B8/out/B8.elf:1a0001ba 00000002 W I2S0_IRQHandler
+projects/B8/out/B8.elf:1a001704 00000018 T vTaskInternalSetTimeOutState
+projects/B8/out/B8.elf:1a0001ba 00000002 W TIMER3_IRQHandler
+projects/B8/out/B8.elf:1a002a7a 0000000c T Chip_Clock_GetBaseClocktHz
+projects/B8/out/B8.elf:1a0001ba 00000002 W UART0_IRQHandler
+projects/B8/out/B8.elf:1a0001a8 00000012 T bss_init
+projects/B8/out/B8.elf:1a001e98 00000110 T xPortStartScheduler
+projects/B8/out/B8.elf:1a00382e 0000001c T memcpy
+projects/B8/out/B8.elf:1a001610 00000030 T vTaskPlaceOnEventList
+projects/B8/out/B8.elf:1a0001ba 00000002 W SGPIO_IRQHandler
+projects/B8/out/B8.elf:1a003640 0000000c T _cleanup_r
+projects/B8/out/B8.elf:1a001e60 00000038 W vPortSetupTimerInterrupt
+projects/B8/out/B8.elf:1a003170 T __aeabi_uldivmod
+projects/B8/out/B8.elf:100022f8 ? _noinit
+projects/B8/out/B8.elf:1a004070 00000010 T puts
+projects/B8/out/B8.elf:1a0006ec 00000016 T vPortFree
+projects/B8/out/B8.elf:100022e4 00000004 B SystemCoreClock
+projects/B8/out/B8.elf:1a000300 00000016 T tarea_tecla
+projects/B8/out/B8.elf:1a00236c 00000054 T Chip_UART_Init
+projects/B8/out/B8.elf:1a0001ba 00000002 W ADC0_IRQHandler
+projects/B8/out/B8.elf:1a001fa8 0000005c T vPortValidateInterruptPriority
+projects/B8/out/B8.elf:1a000180 00000002 W UsageFault_Handler
+projects/B8/out/B8.elf:1a002af8 0000004c T Chip_Clock_GetRate
+projects/B8/out/B8.elf:1a000d76 00000016 T vListInsertEnd
+projects/B8/out/B8.elf:1a0001ba 00000002 W GPIO6_IRQHandler
+projects/B8/out/B8.elf:1a003160 00000010 T printInitUart
+projects/B8/out/B8.elf:1a00224c 0000006c T Board_SetupClocking
+projects/B8/out/B8.elf:20008000 A __top_RamAHB32
+projects/B8/out/B8.elf:1a0031a0 000002d0 T __udivmoddi4
+projects/B8/out/B8.elf:1a00065c 00000020 T _sbrk_r
+projects/B8/out/B8.elf:1a004550 00000004 T ExtRateIn
+projects/B8/out/B8.elf:1a0001ba 00000002 W IntDefaultHandler
+projects/B8/out/B8.elf:1a000300 T __CRP_WORD_END__
+projects/B8/out/B8.elf:1a0005e4 0000004e T _read_r
+projects/B8/out/B8.elf:1a000d70 00000006 T vListInitialiseItem
+projects/B8/out/B8.elf:1a0001ba 00000002 W GPIO1_IRQHandler
+projects/B8/out/B8.elf:1a000b84 0000015c T xQueueReceive
+projects/B8/out/B8.elf:100022a4 00000040 B xQueueRegistry
+projects/B8/out/B8.elf:1a0001ba 00000002 W SSP0_IRQHandler
+projects/B8/out/B8.elf:1a000358 0000003c T tecla_led_init
+projects/B8/out/B8.elf:1a004894 R __exidx_start
+projects/B8/out/B8.elf:100022ee 00000001 B __lock___env_recursive_mutex
+projects/B8/out/B8.elf:1a0002fc 00000004 T CRP_WORD
+projects/B8/out/B8.elf:100022ef 00000001 B __lock___sinit_recursive_mutex
+projects/B8/out/B8.elf:1a004858 00000004 T _global_impure_ptr
+projects/B8/out/B8.elf:1a0037e0 00000048 T __libc_init_array
+projects/B8/out/B8.elf:1a0001ba 00000002 W ADC1_IRQHandler
+projects/B8/out/B8.elf:1a00067c 00000070 T pvPortMalloc
+projects/B8/out/B8.elf:1a0021c8 00000030 T Board_Init
+projects/B8/out/B8.elf:1a0005b2 00000002 W _init
+projects/B8/out/B8.elf:1a000d5a 00000016 T vListInitialise
+projects/B8/out/B8.elf:1a000114 T __data_section_table
+projects/B8/out/B8.elf:1a001234 0000000c T xTaskGetTickCount
+projects/B8/out/B8.elf:1a000934 00000180 T xQueueGenericSend
+projects/B8/out/B8.elf:1a0001ba 00000002 W RTC_IRQHandler
+projects/B8/out/B8.elf:100022f8 B _ebss
+projects/B8/out/B8.elf:1a0001ba 00000002 W TIMER0_IRQHandler
+projects/B8/out/B8.elf:1a000528 00000088 T Reset_Handler
+projects/B8/out/B8.elf:20010000 A __top_RamAHB_ETB16
+projects/B8/out/B8.elf:1a0001ba 00000002 W SPI_IRQHandler
+projects/B8/out/B8.elf:1a002308 00000038 T Chip_I2C_SetClockRate
+projects/B8/out/B8.elf:1a0017cc 000000b4 T xTaskPriorityDisinherit
+projects/B8/out/B8.elf:1a0001ba 00000002 W LCD_IRQHandler
+projects/B8/out/B8.elf:1a0027b0 0000004c T Chip_Clock_EnableCrystal
+projects/B8/out/B8.elf:100022f0 00000001 B __lock___malloc_recursive_mutex
+projects/B8/out/B8.elf:10008000 A __top_RamLoc32
+projects/B8/out/B8.elf:1a001678 0000008c T xTaskRemoveFromEventList
+projects/B8/out/B8.elf:1a000e14 0000001c W vApplicationMallocFailedHook
+projects/B8/out/B8.elf:1a00018a 0000001e T data_init
+projects/B8/out/B8.elf:1a004106 00000020 T strcat
+projects/B8/out/B8.elf:1a0001ba 00000002 W TIMER1_IRQHandler
+projects/B8/out/B8.elf:1a0047f8 00000020 T __sf_fake_stderr
+projects/B8/out/B8.elf:1a0022e4 00000024 T Chip_I2C_Init
+projects/B8/out/B8.elf:10000000 00000004 D leds
+projects/B8/out/B8.elf:1a00382c 00000002 T __retarget_lock_release_recursive
+projects/B8/out/B8.elf:1a0001ba 00000002 W UART2_IRQHandler
+projects/B8/out/B8.elf:1a00296c 0000006c T Chip_Clock_GetMainPLLHz
+projects/B8/out/B8.elf:1a004710 000000e6 T gpioPinsInit
+projects/B8/out/B8.elf:1a000de8 0000002c W vAssertCalled
+projects/B8/out/B8.elf:1a002ccc 00000012 T Chip_SSP_SetClockRate
+projects/B8/out/B8.elf:1a0039da 00000024 T __sfputs_r
+projects/B8/out/B8.elf:1a0001ba 00000002 W GPIO2_IRQHandler
+projects/B8/out/B8.elf:1a003678 0000000c T __sfp_lock_acquire
+projects/B8/out/B8.elf:1a004380 T memchr
+projects/B8/out/B8.elf:1a00171c 00000084 T xTaskCheckForTimeOut
+projects/B8/out/B8.elf:1a00385c 0000009c T _free_r
+projects/B8/out/B8.elf:1a002a54 00000026 T Chip_Clock_GetBaseClock
+projects/B8/out/B8.elf:100000ac B _bss
+projects/B8/out/B8.elf:1a00047e 00000006 T fsmButtonError
+projects/B8/out/B8.elf:1a002564 00000032 T Chip_ADC_SetSampleRate
+projects/B8/out/B8.elf:1000222c 00000004 B freeRtosInterruptCallback
+projects/B8/out/B8.elf:1a001224 00000010 T vTaskSuspendAll
+projects/B8/out/B8.elf:10000004 00000004 D teclas
+projects/B8/out/B8.elf:1a0001ba 00000002 W I2S1_IRQHandler
+projects/B8/out/B8.elf:1a002cde 0000003e T Chip_SSP_SetBitRate
+projects/B8/out/B8.elf:1a000dc0 00000026 T uxListRemove
+projects/B8/out/B8.elf:1a002b44 00000002 T Chip_GPIO_Init
+projects/B8/out/B8.elf:1a00457c 00000004 T OscRateIn
+projects/B8/out/B8.elf:1a002da8 0000007c T uartInit
+projects/B8/out/B8.elf:100022f8 ? _end_noinit
+projects/B8/out/B8.elf:10008000 A _vStackTop
+projects/B8/out/B8.elf:1a000316 00000040 T tarea_led
+projects/B8/out/B8.elf:1a001544 000000cc T vTaskSwitchContext
+projects/B8/out/B8.elf:1a0001ba 00000002 W SSP1_IRQHandler
+projects/B8/out/B8.elf:1a001640 00000038 T vTaskPlaceOnEventListRestricted
+projects/B8/out/B8.elf:1a000178 T __bss_section_table_end
+projects/B8/out/B8.elf:1a000460 0000000c T buttonPressed
+projects/B8/out/B8.elf:1a0005b4 0000000a T _close_r
+projects/B8/out/B8.elf:1a002e58 000001ac T gpioInit
+projects/B8/out/B8.elf:1a001994 0000006c T xTimerGenericCommand
+projects/B8/out/B8.elf:1a0041dc 000000dc T __swsetup_r
+projects/B8/out/B8.elf:1a000e30 0000001c W vApplicationStackOverflowHook
+projects/B8/out/B8.elf:1a003470 00000002 W __aeabi_ldiv0
+projects/B8/out/B8.elf:1a003718 0000008c T __sfp
+projects/B8/out/B8.elf:1a00369c 0000000c T __sinit_lock_release
+projects/B8/out/B8.elf:1a004080 00000022 T __sread
+projects/B8/out/B8.elf:1a0030d8 0000001c T USB0_IRQHandler
+projects/B8/out/B8.elf:1a0001ba 00000002 W GPIO3_IRQHandler
+projects/B8/out/B8.elf:1a004420 0000000c T __malloc_lock
+projects/B8/out/B8.elf:10002244 00000060 B tecla_led_config
+projects/B8/out/B8.elf:1a002198 00000014 T Board_UARTPutChar
+projects/B8/out/B8.elf:1a0001ba 00000002 W SCT_IRQHandler
+projects/B8/out/B8.elf:1a003580 00000078 T _fflush_r
+projects/B8/out/B8.elf:1a004818 00000020 T __sf_fake_stdin
+projects/B8/out/B8.elf:1a002818 0000001c T Chip_Clock_GetDividerDivisor
+projects/B8/out/B8.elf:1a0002fc T __CRP_WORD_START__
+projects/B8/out/B8.elf:1a00382a 00000002 T __retarget_lock_acquire_recursive
+projects/B8/out/B8.elf:1a00384a 00000010 T memset
+projects/B8/out/B8.elf:1a00017c 00000002 W MemManage_Handler
+projects/B8/out/B8.elf:1a000414 0000004c T main
+projects/B8/out/B8.elf:1a003828 00000002 T __retarget_lock_init_recursive
+projects/B8/out/B8.elf:1a0001ba 00000002 W WDT_IRQHandler
+projects/B8/out/B8.elf:1a000d8c 00000034 T vListInsert
+projects/B8/out/B8.elf:2000c000 A __top_RamAHB16
+projects/B8/out/B8.elf:1008a000 A __top_RamLoc40
+projects/B8/out/B8.elf:1a001d30 00000024 T SVC_Handler
+projects/B8/out/B8.elf:1a0040fe 00000008 T __sclose
+projects/B8/out/B8.elf:1a001944 00000050 T xTimerCreateTimerTask
+projects/B8/out/B8.elf:1a0038f8 000000b4 T _malloc_r
+projects/B8/out/B8.elf:1a001454 000000a4 T vTaskDelayUntil
+projects/B8/out/B8.elf:1a0001ba 00000002 W GPIO7_IRQHandler
+projects/B8/out/B8.elf:1a002a88 0000003c T Chip_Clock_EnableOpts
+projects/B8/out/B8.elf:1a002202 00000008 T __stdio_getchar
+projects/B8/out/B8.elf:1a0008ea 00000048 T xQueueGenericCreate
+projects/B8/out/B8.elf:1a002834 000000b8 T Chip_Clock_GetClockInputHz
+projects/B8/out/B8.elf:1a0028ec 00000080 T Chip_Clock_CalcMainPLLValue
+projects/B8/out/B8.elf:1a00048e 00000096 T fsmButtonUpdate
+projects/B8/out/B8.elf:1a002d54 00000038 T SystemInit
+projects/B8/out/B8.elf:1a0001ba 00000002 W SPIFI_IRQHandler
+projects/B8/out/B8.elf:1a0001ba 00000002 W QEI_IRQHandler
+projects/B8/out/B8.elf:1a000150 T __bss_section_table
+projects/B8/out/B8.elf:1a003004 0000006a T gpioWrite
+projects/B8/out/B8.elf:1a0005b0 00000002 W _fini
+projects/B8/out/B8.elf:1a003f64 00000030 T iprintf
+projects/B8/out/B8.elf:1a001358 000000fc T xTaskResumeAll
+projects/B8/out/B8.elf:1a0011a0 00000084 T vTaskStartScheduler
+projects/B8/out/B8.elf:1a002524 00000040 T Chip_ADC_Init
+projects/B8/out/B8.elf:100022e8 00000004 B g_pUsbApi
+projects/B8/out/B8.elf:1a002214 00000038 T Board_SetupMuxing
+projects/B8/out/B8.elf:1a002400 000000dc T Chip_UART_SetBaudFDR
+projects/B8/out/B8.elf:1a000632 00000028 T _write_r
+projects/B8/out/B8.elf:1a0001ba 00000002 W ETH_IRQHandler
+projects/B8/out/B8.elf:1a003c50 000000ea T _printf_common
+projects/B8/out/B8.elf:10000048 00000004 D _impure_ptr
+projects/B8/out/B8.elf:1a003474 0000010c T __sflush_r
+projects/B8/out/B8.elf:10000000 ? _end_uninit_RESERVED
+projects/B8/out/B8.elf:1a0001ba 00000002 W CAN0_IRQHandler
+projects/B8/out/B8.elf:10000000 D _data
+projects/B8/out/B8.elf:1a0017a0 0000000c T vTaskMissedYield
+projects/B8/out/B8.elf:100022f8 B _pvHeapStart
+projects/B8/out/B8.elf:1a000178 T __section_table_end
+projects/B8/out/B8.elf:1a002d1c 00000038 T Chip_SSP_Init
+projects/B8/out/B8.elf:1a000ce0 00000028 T vQueueAddToRegistry
+projects/B8/out/B8.elf:1a0001ba 00000002 W GINT0_IRQHandler
+projects/B8/out/B8.elf:1a001240 00000118 T xTaskIncrementTick
+projects/B8/out/B8.elf:1a000394 00000038 T tarea_crear
+projects/B8/out/B8.elf:1a0042b8 00000048 T __swhatbuf_r
+projects/B8/out/B8.elf:1a002004 00000020 T DAC_IRQHandler
+projects/B8/out/B8.elf:1a002174 00000024 T Board_Debug_Init
+projects/B8/out/B8.elf:1a0021f8 0000000a T __stdio_putchar
+projects/B8/out/B8.elf:1a000844 00000084 T xQueueGenericReset
+projects/B8/out/B8.elf:100000ac D _edata
+projects/B8/out/B8.elf:1a0003cc 00000048 T tareas_crear
+projects/B8/out/B8.elf:1a0022c4 00000020 T Chip_I2C_EventHandler
+projects/B8/out/B8.elf:1a0001ba 00000002 W M0SUB_IRQHandler
+projects/B8/out/B8.elf:100022f1 00000001 B __lock___at_quick_exit_mutex
+projects/B8/out/B8.elf:1a00113c 00000062 T xTaskCreate
+projects/B8/out/B8.elf:1a002b48 00000158 T Chip_SetupCoreClock
+projects/B8/out/B8.elf:1a0040a2 00000038 T __swrite
+projects/B8/out/B8.elf:1a0001ba 00000002 W GPIO0_IRQHandler
+projects/B8/out/B8.elf:1a003a00 00000250 T _vfiprintf_r
+projects/B8/out/B8.elf:1a000000 00000040 T g_pfnVectors
+projects/B8/out/B8.elf:1a0037a4 0000003c T _fwalk_reent
+projects/B8/out/B8.elf:1a0025a4 00000014 T SystemCoreClockUpdate
+projects/B8/out/B8.elf:1a0001ba 00000002 W DMA_IRQHandler
+projects/B8/out/B8.elf:1a0014f8 0000004c T vTaskDelay
+projects/B8/out/B8.elf:1a0001ba 00000002 W EVRT_IRQHandler
+projects/B8/out/B8.elf:1b080000 A __top_MFlashB512
+projects/B8/out/B8.elf:1a003684 0000000c T __sfp_lock_release
+projects/B8/out/B8.elf:1a004838 00000020 T __sf_fake_stdout
+projects/B8/out/B8.elf:1a0017ac 00000020 T xTaskGetSchedulerState
+projects/B8/out/B8.elf:1a003470 00000002 W __aeabi_idiv0
+projects/B8/out/B8.elf:1a00017e 00000002 W BusFault_Handler
+projects/B8/out/B8.elf:100022f2 00000001 B __lock___dd_hash_mutex
+projects/B8/out/B8.elf:1a004300 00000080 T __smakebuf_r
+projects/B8/out/B8.elf:100022f3 00000001 B __lock___tz_mutex
+projects/B8/out/B8.elf:1a001d00 0000002c T pxPortInitialiseStack
+projects/B8/out/B8.elf:1a003d3c 00000228 T _printf_i
+projects/B8/out/B8.elf:1a002ac4 00000034 T Chip_Clock_Enable
+projects/B8/out/B8.elf:1a0001ba 00000002 W UART3_IRQHandler
+projects/B8/out/B8.elf:10002240 00000004 B __malloc_sbrk_start
+projects/B8/out/B8.elf:1a0001ba 00000002 W MCPWM_IRQHandler
+projects/B8/out/B8.elf:1a0001ba 00000002 W M0APP_IRQHandler
+projects/B8/out/B8.elf:1a00306e 00000068 T gpioRead
+projects/B8/out/B8.elf:1a0030f4 0000006c T boardInit
+projects/B8/out/B8.elf:1a001d54 00000044 T vPortEnterCritical
+projects/B8/out/B8.elf:1000223c 00000004 B __malloc_free_list
+projects/B8/out/B8.elf:1a000040 000000d4 T g_pfnVendorVectors
+projects/B8/out/B8.elf:1a003a00 00000250 T _vfprintf_r
+projects/B8/out/B8.elf:1a000484 0000000a T fsmButtonInit
+projects/B8/out/B8.elf:1a0001ba 00000002 W GINT1_IRQHandler
+projects/B8/out/B8.elf:1a0029fc 00000058 T Chip_Clock_SetBaseClock
+projects/B8/out/B8.elf:1a002d8c 0000001c T cyclesCounterInit
+projects/B8/out/B8.elf:1a0001ba 00000002 W GPIO4_IRQHandler
+projects/B8/out/B8.elf:100022f4 00000001 B __lock___sfp_recursive_mutex
+projects/B8/out/B8.elf:1a003690 0000000c T __sinit_lock_acquire
+projects/B8/out/B8.elf:1a0022b8 0000000c T Board_SystemInit

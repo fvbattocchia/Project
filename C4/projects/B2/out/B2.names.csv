@@ -1,0 +1,360 @@
+projects/B2/out/B2.elf:100000a4 00000001 b debugPrint
+projects/B2/out/B2.elf:100000a8 00000004 b heap_end.5864
+projects/B2/out/B2.elf:100000b0 00002000 b ucHeap
+projects/B2/out/B2.elf:100000ac 00000004 b pucAlignedHeap.11512
+projects/B2/out/B2.elf:100020b0 00000004 b xNextFreeByte
+projects/B2/out/B2.elf:1a00059e 0000001e t prvIsQueueFull
+projects/B2/out/B2.elf:1a0005bc 0000001a t prvIsQueueEmpty
+projects/B2/out/B2.elf:1a0005d6 00000076 t prvCopyDataToQueue
+projects/B2/out/B2.elf:1a00064c 00000024 t prvCopyDataFromQueue
+projects/B2/out/B2.elf:1a000670 0000006e t prvUnlockQueue
+projects/B2/out/B2.elf:1a000764 00000022 t prvInitialiseNewQueue
+projects/B2/out/B2.elf:1a000ce8 0000002c t prvResetNextTaskUnblockTime
+projects/B2/out/B2.elf:1a000d14 00000012 t prvDeleteTCB
+projects/B2/out/B2.elf:1a000d26 00000090 t prvInitialiseNewTask
+projects/B2/out/B2.elf:1a000db8 00000068 t prvInitialiseTaskLists
+projects/B2/out/B2.elf:1a000e20 000000ac t prvAddNewTaskToReadyList
+projects/B2/out/B2.elf:1a000ecc 0000004c t prvCheckTasksWaitingTermination
+projects/B2/out/B2.elf:1a000f18 00000028 t prvIdleTask
+projects/B2/out/B2.elf:1a000f40 00000098 t prvAddCurrentTaskToDelayedList
+projects/B2/out/B2.elf:100020b8 00000004 b pxDelayedTaskList
+projects/B2/out/B2.elf:100020bc 00000004 b pxOverflowDelayedTaskList
+projects/B2/out/B2.elf:100020c0 0000008c b pxReadyTasksLists
+projects/B2/out/B2.elf:1000214c 00000004 b uxCurrentNumberOfTasks
+projects/B2/out/B2.elf:10002150 00000004 b uxDeletedTasksWaitingCleanUp
+projects/B2/out/B2.elf:10002154 00000004 b uxPendedTicks
+projects/B2/out/B2.elf:10002158 00000004 b uxSchedulerSuspended
+projects/B2/out/B2.elf:1000215c 00000004 b uxTaskNumber
+projects/B2/out/B2.elf:10002160 00000004 b uxTopReadyPriority
+projects/B2/out/B2.elf:10002164 00000014 b xDelayedTaskList1
+projects/B2/out/B2.elf:10002178 00000014 b xDelayedTaskList2
+projects/B2/out/B2.elf:1000218c 00000004 b xIdleTaskHandle
+projects/B2/out/B2.elf:10002190 00000004 b xNextTaskUnblockTime
+projects/B2/out/B2.elf:10002194 00000004 b xNumOfOverflows
+projects/B2/out/B2.elf:10002198 00000014 b xPendingReadyList
+projects/B2/out/B2.elf:100021ac 00000004 b xSchedulerRunning
+projects/B2/out/B2.elf:100021b0 00000014 b xSuspendedTaskList
+projects/B2/out/B2.elf:100021c4 00000014 b xTasksWaitingTermination
+projects/B2/out/B2.elf:100021d8 00000004 b xTickCount
+projects/B2/out/B2.elf:100021dc 00000004 b xYieldPending
+projects/B2/out/B2.elf:1a00171c 00000020 t prvGetNextExpireTime
+projects/B2/out/B2.elf:1a00173c 00000048 t prvInsertTimerInActiveList
+projects/B2/out/B2.elf:1a001784 0000005c t prvCheckForValidListAndQueue
+projects/B2/out/B2.elf:1a001b08 00000016 t prvTimerTask
+projects/B2/out/B2.elf:1a00189c 00000078 t prvSwitchTimerLists
+projects/B2/out/B2.elf:1a001914 0000002c t prvSampleTimeNow
+projects/B2/out/B2.elf:1a001940 00000060 t prvProcessExpiredTimer
+projects/B2/out/B2.elf:1a0019a0 00000074 t prvProcessTimerOrBlockTask
+projects/B2/out/B2.elf:1a001a14 000000f4 t prvProcessReceivedCommands
+projects/B2/out/B2.elf:100021e0 00000004 b pxCurrentTimerList
+projects/B2/out/B2.elf:100021e4 00000004 b pxOverflowTimerList
+projects/B2/out/B2.elf:100021e8 00000014 b xActiveTimerList1
+projects/B2/out/B2.elf:100021fc 00000014 b xActiveTimerList2
+projects/B2/out/B2.elf:10002210 00000004 b xLastTime.11818
+projects/B2/out/B2.elf:10002214 00000004 b xTimerQueue
+projects/B2/out/B2.elf:10002218 00000004 b xTimerTaskHandle
+projects/B2/out/B2.elf:1a001b20 00000040 t prvTaskExitError
+projects/B2/out/B2.elf:1a001b60 00000022 t prvPortStartFirstTask
+projects/B2/out/B2.elf:1a001b88 0000000e t vPortEnableVFP
+projects/B2/out/B2.elf:1a001bf0 t pxCurrentTCBConst2
+projects/B2/out/B2.elf:1a001cd0 t pxCurrentTCBConst
+projects/B2/out/B2.elf:1000221c 00000001 b ucMaxSysCallPriority
+projects/B2/out/B2.elf:10002220 00000004 b ulMaxPRIGROUPValue
+projects/B2/out/B2.elf:10000000 00000004 d uxCriticalNesting
+projects/B2/out/B2.elf:1a001ec4 00000044 t Board_LED_Init
+projects/B2/out/B2.elf:1a001f08 00000040 t Board_TEC_Init
+projects/B2/out/B2.elf:1a001f48 00000040 t Board_GPIO_Init
+projects/B2/out/B2.elf:1a001f88 00000030 t Board_ADC_Init
+projects/B2/out/B2.elf:1a001fb8 00000038 t Board_SPI_Init
+projects/B2/out/B2.elf:1a001ff0 00000024 t Board_I2C_Init
+projects/B2/out/B2.elf:1a004350 00000008 t GpioButtons
+projects/B2/out/B2.elf:1a004358 0000000c t GpioLeds
+projects/B2/out/B2.elf:1a004364 00000012 t GpioPorts
+projects/B2/out/B2.elf:1a00437c 00000004 t InitClkStates
+projects/B2/out/B2.elf:1a004380 00000074 t pinmuxing
+projects/B2/out/B2.elf:10000004 00000038 d i2c
+projects/B2/out/B2.elf:1a0021e0 0000002c t Chip_UART_GetIndex
+projects/B2/out/B2.elf:1a0043f4 00000008 t UART_BClock
+projects/B2/out/B2.elf:1a0043fc 00000008 t UART_PClock
+projects/B2/out/B2.elf:1a00237c 00000014 t Chip_ADC_GetClockIndex
+projects/B2/out/B2.elf:1a002390 00000032 t getClkDiv
+projects/B2/out/B2.elf:1a002458 000000a0 t pll_calc_divs
+projects/B2/out/B2.elf:1a0024f8 0000010c t pll_get_frac
+projects/B2/out/B2.elf:1a002604 0000004c t Chip_Clock_FindBaseClock
+projects/B2/out/B2.elf:1a002878 00000022 t Chip_Clock_GetDivRate
+projects/B2/out/B2.elf:10002228 00000008 b audio_usb_pll_freq
+projects/B2/out/B2.elf:1a004410 0000006c t periph_to_base
+projects/B2/out/B2.elf:1a00447c 00000048 t InitClkStates
+projects/B2/out/B2.elf:1a002b40 00000014 t Chip_SSP_GetClockIndex
+projects/B2/out/B2.elf:1a002b54 00000018 t Chip_SSP_GetPeriphClockIndex
+projects/B2/out/B2.elf:1000003c 00000004 d ClockSpeed
+projects/B2/out/B2.elf:1a0044c4 00000048 t lpcUarts
+projects/B2/out/B2.elf:1a002cc4 00000034 t gpioObtainPinInit
+projects/B2/out/B2.elf:10002230 00000004 b g_hUsb
+projects/B2/out/B2.elf:1a003430 00000048 t std
+projects/B2/out/B2.elf:1a0037e4 0000002e t __sfputc_r
+projects/B2/out/B2.elf:10000044 00000060 d impure_data
+projects/B2/out/B2.elf:1a004690 t __init_array_end
+projects/B2/out/B2.elf:1a00468c b __preinit_array_end
+projects/B2/out/B2.elf:1a00468c t __init_array_start
+projects/B2/out/B2.elf:1a00468c b __preinit_array_start
+projects/B2/out/B2.elf:1a00269c 0000001c T Chip_Clock_GetDividerSource
+projects/B2/out/B2.elf:1a000464 00000012 T _isatty_r
+projects/B2/out/B2.elf:1a003dcc 000000dc T _puts_r
+projects/B2/out/B2.elf:1a0001ba 00000002 W TIMER2_IRQHandler
+projects/B2/out/B2.elf:1a000476 0000000a T _lseek_r
+projects/B2/out/B2.elf:1a000184 00000002 W DebugMon_Handler
+projects/B2/out/B2.elf:1a0001ba 00000002 W RIT_IRQHandler
+projects/B2/out/B2.elf:1a080000 A __top_MFlashA512
+projects/B2/out/B2.elf:1a0001ba 00000002 W ADCHS_IRQHandler
+projects/B2/out/B2.elf:1a000114 T __section_table_start
+projects/B2/out/B2.elf:1a0001ba 00000002 W FLASH_EEPROM_IRQHandler
+projects/B2/out/B2.elf:1a001c38 0000002c T vPortExitCritical
+projects/B2/out/B2.elf:1a0001ba 00000002 W I2C0_IRQHandler
+projects/B2/out/B2.elf:1a003d9c 00000030 T printf
+projects/B2/out/B2.elf:1a0020aa 00000008 T __stdio_init
+projects/B2/out/B2.elf:10002284 00000001 B __lock___atexit_recursive_mutex
+projects/B2/out/B2.elf:1a003f12 00000024 T __sseek
+projects/B2/out/B2.elf:1a0034e0 00000070 T __sinit
+projects/B2/out/B2.elf:1a003f40 000000a4 T __swbuf_r
+projects/B2/out/B2.elf:1a00017a 00000002 W HardFault_Handler
+projects/B2/out/B2.elf:1a000ba4 00000052 T vQueueWaitForMessageRestricted
+projects/B2/out/B2.elf:1a003484 0000002c T __sfmoreglue
+projects/B2/out/B2.elf:1a000000 A __vectors_start__
+projects/B2/out/B2.elf:1a002436 0000000c T Chip_ADC_SetResolution
+projects/B2/out/B2.elf:1a00423c 0000000c T __malloc_unlock
+projects/B2/out/B2.elf:1a001cd4 0000002c T SysTick_Handler
+projects/B2/out/B2.elf:1a002260 00000040 T Chip_UART_SetBaud
+projects/B2/out/B2.elf:10002285 00000001 B __lock___arc4random_mutex
+projects/B2/out/B2.elf:1a0003c0 00000002 W initialise_monitor_handles
+projects/B2/out/B2.elf:1a0001ba 00000002 W SDIO_IRQHandler
+projects/B2/out/B2.elf:1a00204c 0000001c T Board_UARTGetChar
+projects/B2/out/B2.elf:1a0001ba 00000002 W ATIMER_IRQHandler
+projects/B2/out/B2.elf:1a001c70 00000064 T PendSV_Handler
+projects/B2/out/B2.elf:1a000950 000000ce T xQueueGenericSendFromISR
+projects/B2/out/B2.elf:1a000178 00000002 W NMI_Handler
+projects/B2/out/B2.elf:1a004698 R __exidx_end
+projects/B2/out/B2.elf:1a000150 T __data_section_table_end
+projects/B2/out/B2.elf:1a0001ba 00000002 W I2C1_IRQHandler
+projects/B2/out/B2.elf:1a0001ba 00000002 W UART1_IRQHandler
+projects/B2/out/B2.elf:1a0001ba 00000002 W GPIO5_IRQHandler
+projects/B2/out/B2.elf:1a0001ba 00000002 W CAN1_IRQHandler
+projects/B2/out/B2.elf:100020b4 00000004 B pxCurrentTCB
+projects/B2/out/B2.elf:1a00045a 0000000a T _fstat_r
+projects/B2/out/B2.elf:53ff74ca A __valid_user_code_checksum
+projects/B2/out/B2.elf:1a004698 R _etext
+projects/B2/out/B2.elf:1a0001ba 00000002 W USB1_IRQHandler
+projects/B2/out/B2.elf:1a0001ba 00000002 W I2S0_IRQHandler
+projects/B2/out/B2.elf:1a0015a0 00000018 T vTaskInternalSetTimeOutState
+projects/B2/out/B2.elf:1a0001ba 00000002 W TIMER3_IRQHandler
+projects/B2/out/B2.elf:1a00291a 0000000c T Chip_Clock_GetBaseClocktHz
+projects/B2/out/B2.elf:1a0001ba 00000002 W UART0_IRQHandler
+projects/B2/out/B2.elf:1a0001a8 00000012 T bss_init
+projects/B2/out/B2.elf:1a001d38 00000110 T xPortStartScheduler
+projects/B2/out/B2.elf:1a003666 0000001c T memcpy
+projects/B2/out/B2.elf:1a0014ac 00000030 T vTaskPlaceOnEventList
+projects/B2/out/B2.elf:1a0001ba 00000002 W SGPIO_IRQHandler
+projects/B2/out/B2.elf:1a003478 0000000c T _cleanup_r
+projects/B2/out/B2.elf:1a001d00 00000038 W vPortSetupTimerInterrupt
+projects/B2/out/B2.elf:1a002fa8 T __aeabi_uldivmod
+projects/B2/out/B2.elf:10002290 ? _noinit
+projects/B2/out/B2.elf:1a003ea8 00000010 T puts
+projects/B2/out/B2.elf:1a000588 00000016 T vPortFree
+projects/B2/out/B2.elf:1000227c 00000004 B SystemCoreClock
+projects/B2/out/B2.elf:1a00220c 00000054 T Chip_UART_Init
+projects/B2/out/B2.elf:1a0001ba 00000002 W ADC0_IRQHandler
+projects/B2/out/B2.elf:1a001e48 0000005c T vPortValidateInterruptPriority
+projects/B2/out/B2.elf:1a000180 00000002 W UsageFault_Handler
+projects/B2/out/B2.elf:1a002998 0000004c T Chip_Clock_GetRate
+projects/B2/out/B2.elf:1a000c12 00000016 T vListInsertEnd
+projects/B2/out/B2.elf:1a0001ba 00000002 W GPIO6_IRQHandler
+projects/B2/out/B2.elf:1a002f98 00000010 T printInitUart
+projects/B2/out/B2.elf:1a0020ec 0000006c T Board_SetupClocking
+projects/B2/out/B2.elf:20008000 A __top_RamAHB32
+projects/B2/out/B2.elf:1a002fd8 000002d0 T __udivmoddi4
+projects/B2/out/B2.elf:1a0004f8 00000020 T _sbrk_r
+projects/B2/out/B2.elf:1a00434c 00000004 T ExtRateIn
+projects/B2/out/B2.elf:1a0001ba 00000002 W IntDefaultHandler
+projects/B2/out/B2.elf:1a000300 T __CRP_WORD_END__
+projects/B2/out/B2.elf:1a000480 0000004e T _read_r
+projects/B2/out/B2.elf:1a000c0c 00000006 T vListInitialiseItem
+projects/B2/out/B2.elf:1a0001ba 00000002 W GPIO1_IRQHandler
+projects/B2/out/B2.elf:1a000a20 0000015c T xQueueReceive
+projects/B2/out/B2.elf:1000223c 00000040 B xQueueRegistry
+projects/B2/out/B2.elf:1a0001ba 00000002 W SSP0_IRQHandler
+projects/B2/out/B2.elf:1a004690 R __exidx_start
+projects/B2/out/B2.elf:10002286 00000001 B __lock___env_recursive_mutex
+projects/B2/out/B2.elf:1a0002fc 00000004 T CRP_WORD
+projects/B2/out/B2.elf:10002287 00000001 B __lock___sinit_recursive_mutex
+projects/B2/out/B2.elf:1a004654 00000004 T _global_impure_ptr
+projects/B2/out/B2.elf:1a003618 00000048 T __libc_init_array
+projects/B2/out/B2.elf:1a0001ba 00000002 W ADC1_IRQHandler
+projects/B2/out/B2.elf:1a000518 00000070 T pvPortMalloc
+projects/B2/out/B2.elf:1a002068 00000030 T Board_Init
+projects/B2/out/B2.elf:1a00044e 00000002 W _init
+projects/B2/out/B2.elf:1a000bf6 00000016 T vListInitialise
+projects/B2/out/B2.elf:1a000114 T __data_section_table
+projects/B2/out/B2.elf:1a0010d0 0000000c T xTaskGetTickCount
+projects/B2/out/B2.elf:1a0007d0 00000180 T xQueueGenericSend
+projects/B2/out/B2.elf:1a0001ba 00000002 W RTC_IRQHandler
+projects/B2/out/B2.elf:10002290 B _ebss
+projects/B2/out/B2.elf:1a0001ba 00000002 W TIMER0_IRQHandler
+projects/B2/out/B2.elf:1a0003c4 00000088 T Reset_Handler
+projects/B2/out/B2.elf:20010000 A __top_RamAHB_ETB16
+projects/B2/out/B2.elf:1a0001ba 00000002 W SPI_IRQHandler
+projects/B2/out/B2.elf:1a0021a8 00000038 T Chip_I2C_SetClockRate
+projects/B2/out/B2.elf:1a001668 000000b4 T xTaskPriorityDisinherit
+projects/B2/out/B2.elf:1a0001ba 00000002 W LCD_IRQHandler
+projects/B2/out/B2.elf:1a002650 0000004c T Chip_Clock_EnableCrystal
+projects/B2/out/B2.elf:10002288 00000001 B __lock___malloc_recursive_mutex
+projects/B2/out/B2.elf:10008000 A __top_RamLoc32
+projects/B2/out/B2.elf:1a001514 0000008c T xTaskRemoveFromEventList
+projects/B2/out/B2.elf:1a000cb0 0000001c W vApplicationMallocFailedHook
+projects/B2/out/B2.elf:1a00018a 0000001e T data_init
+projects/B2/out/B2.elf:1a0001ba 00000002 W TIMER1_IRQHandler
+projects/B2/out/B2.elf:1a0045f4 00000020 T __sf_fake_stderr
+projects/B2/out/B2.elf:1a000300 00000068 T heart_beat
+projects/B2/out/B2.elf:1a002184 00000024 T Chip_I2C_Init
+projects/B2/out/B2.elf:1a003664 00000002 T __retarget_lock_release_recursive
+projects/B2/out/B2.elf:1a0001ba 00000002 W UART2_IRQHandler
+projects/B2/out/B2.elf:1a00280c 0000006c T Chip_Clock_GetMainPLLHz
+projects/B2/out/B2.elf:1a00450c 000000e6 T gpioPinsInit
+projects/B2/out/B2.elf:1a000c84 0000002c W vAssertCalled
+projects/B2/out/B2.elf:1a002b6c 00000012 T Chip_SSP_SetClockRate
+projects/B2/out/B2.elf:1a003812 00000024 T __sfputs_r
+projects/B2/out/B2.elf:1a0001ba 00000002 W GPIO2_IRQHandler
+projects/B2/out/B2.elf:1a0034b0 0000000c T __sfp_lock_acquire
+projects/B2/out/B2.elf:1a004190 T memchr
+projects/B2/out/B2.elf:1a0015b8 00000084 T xTaskCheckForTimeOut
+projects/B2/out/B2.elf:1a003694 0000009c T _free_r
+projects/B2/out/B2.elf:1a0028f4 00000026 T Chip_Clock_GetBaseClock
+projects/B2/out/B2.elf:100000a4 B _bss
+projects/B2/out/B2.elf:1a002404 00000032 T Chip_ADC_SetSampleRate
+projects/B2/out/B2.elf:10002224 00000004 B freeRtosInterruptCallback
+projects/B2/out/B2.elf:1a0010c0 00000010 T vTaskSuspendAll
+projects/B2/out/B2.elf:1a0001ba 00000002 W I2S1_IRQHandler
+projects/B2/out/B2.elf:1a002b7e 0000003e T Chip_SSP_SetBitRate
+projects/B2/out/B2.elf:1a000c5c 00000026 T uxListRemove
+projects/B2/out/B2.elf:1a0029e4 00000002 T Chip_GPIO_Init
+projects/B2/out/B2.elf:1a004378 00000004 T OscRateIn
+projects/B2/out/B2.elf:1a002c48 0000007c T uartInit
+projects/B2/out/B2.elf:10002290 ? _end_noinit
+projects/B2/out/B2.elf:10008000 A _vStackTop
+projects/B2/out/B2.elf:1a0013e0 000000cc T vTaskSwitchContext
+projects/B2/out/B2.elf:1a0001ba 00000002 W SSP1_IRQHandler
+projects/B2/out/B2.elf:1a0014dc 00000038 T vTaskPlaceOnEventListRestricted
+projects/B2/out/B2.elf:1a000178 T __bss_section_table_end
+projects/B2/out/B2.elf:1a000450 0000000a T _close_r
+projects/B2/out/B2.elf:1a002cf8 000001ac T gpioInit
+projects/B2/out/B2.elf:1a001830 0000006c T xTimerGenericCommand
+projects/B2/out/B2.elf:1a003fe4 000000dc T __swsetup_r
+projects/B2/out/B2.elf:1a000ccc 0000001c W vApplicationStackOverflowHook
+projects/B2/out/B2.elf:1a0032a8 00000002 W __aeabi_ldiv0
+projects/B2/out/B2.elf:1a003550 0000008c T __sfp
+projects/B2/out/B2.elf:1a0034d4 0000000c T __sinit_lock_release
+projects/B2/out/B2.elf:1a003eb8 00000022 T __sread
+projects/B2/out/B2.elf:1a002f10 0000001c T USB0_IRQHandler
+projects/B2/out/B2.elf:1a0001ba 00000002 W GPIO3_IRQHandler
+projects/B2/out/B2.elf:1a004230 0000000c T __malloc_lock
+projects/B2/out/B2.elf:1a002038 00000014 T Board_UARTPutChar
+projects/B2/out/B2.elf:1a0001ba 00000002 W SCT_IRQHandler
+projects/B2/out/B2.elf:1a0033b8 00000078 T _fflush_r
+projects/B2/out/B2.elf:1a004614 00000020 T __sf_fake_stdin
+projects/B2/out/B2.elf:1a0026b8 0000001c T Chip_Clock_GetDividerDivisor
+projects/B2/out/B2.elf:1a0002fc T __CRP_WORD_START__
+projects/B2/out/B2.elf:1a003662 00000002 T __retarget_lock_acquire_recursive
+projects/B2/out/B2.elf:1a003682 00000010 T memset
+projects/B2/out/B2.elf:1a00017c 00000002 W MemManage_Handler
+projects/B2/out/B2.elf:1a000368 00000058 T main
+projects/B2/out/B2.elf:1a003660 00000002 T __retarget_lock_init_recursive
+projects/B2/out/B2.elf:1a0001ba 00000002 W WDT_IRQHandler
+projects/B2/out/B2.elf:1a000c28 00000034 T vListInsert
+projects/B2/out/B2.elf:2000c000 A __top_RamAHB16
+projects/B2/out/B2.elf:1008a000 A __top_RamLoc40
+projects/B2/out/B2.elf:1a001bd0 00000024 T SVC_Handler
+projects/B2/out/B2.elf:1a003f36 00000008 T __sclose
+projects/B2/out/B2.elf:1a0017e0 00000050 T xTimerCreateTimerTask
+projects/B2/out/B2.elf:1a003730 000000b4 T _malloc_r
+projects/B2/out/B2.elf:1a0012f0 000000a4 T vTaskDelayUntil
+projects/B2/out/B2.elf:1a0001ba 00000002 W GPIO7_IRQHandler
+projects/B2/out/B2.elf:1a002928 0000003c T Chip_Clock_EnableOpts
+projects/B2/out/B2.elf:1a0020a2 00000008 T __stdio_getchar
+projects/B2/out/B2.elf:1a000786 00000048 T xQueueGenericCreate
+projects/B2/out/B2.elf:1a0026d4 000000b8 T Chip_Clock_GetClockInputHz
+projects/B2/out/B2.elf:1a00278c 00000080 T Chip_Clock_CalcMainPLLValue
+projects/B2/out/B2.elf:1a002bf4 00000038 T SystemInit
+projects/B2/out/B2.elf:1a0001ba 00000002 W SPIFI_IRQHandler
+projects/B2/out/B2.elf:1a0001ba 00000002 W QEI_IRQHandler
+projects/B2/out/B2.elf:1a000150 T __bss_section_table
+projects/B2/out/B2.elf:1a002ea4 0000006a T gpioWrite
+projects/B2/out/B2.elf:1a00044c 00000002 W _fini
+projects/B2/out/B2.elf:1a003d9c 00000030 T iprintf
+projects/B2/out/B2.elf:1a0011f4 000000fc T xTaskResumeAll
+projects/B2/out/B2.elf:1a00103c 00000084 T vTaskStartScheduler
+projects/B2/out/B2.elf:1a0023c4 00000040 T Chip_ADC_Init
+projects/B2/out/B2.elf:10002280 00000004 B g_pUsbApi
+projects/B2/out/B2.elf:1a0020b4 00000038 T Board_SetupMuxing
+projects/B2/out/B2.elf:1a0022a0 000000dc T Chip_UART_SetBaudFDR
+projects/B2/out/B2.elf:1a0004ce 00000028 T _write_r
+projects/B2/out/B2.elf:1a0001ba 00000002 W ETH_IRQHandler
+projects/B2/out/B2.elf:1a003a88 000000ea T _printf_common
+projects/B2/out/B2.elf:10000040 00000004 D _impure_ptr
+projects/B2/out/B2.elf:1a0032ac 0000010c T __sflush_r
+projects/B2/out/B2.elf:10000000 ? _end_uninit_RESERVED
+projects/B2/out/B2.elf:1a0001ba 00000002 W CAN0_IRQHandler
+projects/B2/out/B2.elf:10000000 D _data
+projects/B2/out/B2.elf:1a00163c 0000000c T vTaskMissedYield
+projects/B2/out/B2.elf:10002290 B _pvHeapStart
+projects/B2/out/B2.elf:1a000178 T __section_table_end
+projects/B2/out/B2.elf:1a002bbc 00000038 T Chip_SSP_Init
+projects/B2/out/B2.elf:1a000b7c 00000028 T vQueueAddToRegistry
+projects/B2/out/B2.elf:1a0001ba 00000002 W GINT0_IRQHandler
+projects/B2/out/B2.elf:1a0010dc 00000118 T xTaskIncrementTick
+projects/B2/out/B2.elf:1a0040c0 00000048 T __swhatbuf_r
+projects/B2/out/B2.elf:1a001ea4 00000020 T DAC_IRQHandler
+projects/B2/out/B2.elf:1a002014 00000024 T Board_Debug_Init
+projects/B2/out/B2.elf:1a002098 0000000a T __stdio_putchar
+projects/B2/out/B2.elf:1a0006e0 00000084 T xQueueGenericReset
+projects/B2/out/B2.elf:100000a4 D _edata
+projects/B2/out/B2.elf:1a002164 00000020 T Chip_I2C_EventHandler
+projects/B2/out/B2.elf:1a0001ba 00000002 W M0SUB_IRQHandler
+projects/B2/out/B2.elf:10002289 00000001 B __lock___at_quick_exit_mutex
+projects/B2/out/B2.elf:1a000fd8 00000062 T xTaskCreate
+projects/B2/out/B2.elf:1a0029e8 00000158 T Chip_SetupCoreClock
+projects/B2/out/B2.elf:1a003eda 00000038 T __swrite
+projects/B2/out/B2.elf:1a0001ba 00000002 W GPIO0_IRQHandler
+projects/B2/out/B2.elf:1a003838 00000250 T _vfiprintf_r
+projects/B2/out/B2.elf:1a000000 00000040 T g_pfnVectors
+projects/B2/out/B2.elf:1a0035dc 0000003c T _fwalk_reent
+projects/B2/out/B2.elf:1a002444 00000014 T SystemCoreClockUpdate
+projects/B2/out/B2.elf:1a0001ba 00000002 W DMA_IRQHandler
+projects/B2/out/B2.elf:1a001394 0000004c T vTaskDelay
+projects/B2/out/B2.elf:1a0001ba 00000002 W EVRT_IRQHandler
+projects/B2/out/B2.elf:1b080000 A __top_MFlashB512
+projects/B2/out/B2.elf:1a0034bc 0000000c T __sfp_lock_release
+projects/B2/out/B2.elf:1a004634 00000020 T __sf_fake_stdout
+projects/B2/out/B2.elf:1a001648 00000020 T xTaskGetSchedulerState
+projects/B2/out/B2.elf:1a0032a8 00000002 W __aeabi_idiv0
+projects/B2/out/B2.elf:1a00017e 00000002 W BusFault_Handler
+projects/B2/out/B2.elf:1000228a 00000001 B __lock___dd_hash_mutex
+projects/B2/out/B2.elf:1a004108 00000080 T __smakebuf_r
+projects/B2/out/B2.elf:1000228b 00000001 B __lock___tz_mutex
+projects/B2/out/B2.elf:1a001b9c 0000002c T pxPortInitialiseStack
+projects/B2/out/B2.elf:1a003b74 00000228 T _printf_i
+projects/B2/out/B2.elf:1a002964 00000034 T Chip_Clock_Enable
+projects/B2/out/B2.elf:1a0001ba 00000002 W UART3_IRQHandler
+projects/B2/out/B2.elf:10002238 00000004 B __malloc_sbrk_start
+projects/B2/out/B2.elf:1a0001ba 00000002 W MCPWM_IRQHandler
+projects/B2/out/B2.elf:1a0001ba 00000002 W M0APP_IRQHandler
+projects/B2/out/B2.elf:1a002f2c 0000006c T boardInit
+projects/B2/out/B2.elf:1a001bf4 00000044 T vPortEnterCritical
+projects/B2/out/B2.elf:10002234 00000004 B __malloc_free_list
+projects/B2/out/B2.elf:1a000040 000000d4 T g_pfnVendorVectors
+projects/B2/out/B2.elf:1a003838 00000250 T _vfprintf_r
+projects/B2/out/B2.elf:1a0001ba 00000002 W GINT1_IRQHandler
+projects/B2/out/B2.elf:1a00289c 00000058 T Chip_Clock_SetBaseClock
+projects/B2/out/B2.elf:1a002c2c 0000001c T cyclesCounterInit
+projects/B2/out/B2.elf:1a0001ba 00000002 W GPIO4_IRQHandler
+projects/B2/out/B2.elf:1000228c 00000001 B __lock___sfp_recursive_mutex
+projects/B2/out/B2.elf:1a0034c8 0000000c T __sinit_lock_acquire
+projects/B2/out/B2.elf:1a002158 0000000c T Board_SystemInit
