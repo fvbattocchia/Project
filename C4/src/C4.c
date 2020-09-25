@@ -41,6 +41,7 @@ int main( void )
 	debugPrintConfigUart( UART_USB, 115200 );
 	printf( "Ejercicio C_4.\r\n" );
 
+
     BaseType_t res_A =
     xTaskCreate(
         tarea_led,
@@ -110,24 +111,27 @@ void tarea_tecla( void* taskParmPtr )
 void tarea_led( void* taskParmPtr )
 {
     // ---------- CONFIGURACIONES ------------------------------
+	gpioMap_t led;
 	TickType_t xPeriodicity =  LED_RATE;		// Tarea periodica cada 1000 ms
 	TickType_t dutty =  xPeriodicity/2;
+	TickType_t xTickSem = 0;
 	TickType_t xLastWakeTime = xTaskGetTickCount();
     // ---------- REPETIR POR SIEMPRE --------------------------
     while( TRUE )
     {
-    	if(xSemaphoreTake( sem_tec_pulsada ,xPeriodicity-dutty)== pdTRUE){
+    	//siempre que hay tiempo finito ramificar
+    	if(xSemaphoreTake( sem_tec_pulsada ,xTickSem)== pdTRUE){
 			//se libera el semaforo
-			gpioWrite( LEDB , ON );
-			vTaskDelay( dutty );
-			gpioWrite( LEDB , OFF );
-			clear_diff();
+			led=LEDB;
+			//clear_diff();
     	}else{
     		//se cumplio el tiempo y no se libero
-			gpioWrite( LEDR , ON );
-			vTaskDelay( dutty );
-			gpioWrite( LEDR , OFF );
+    		led= LEDR;
     	}
+		gpioWrite( led , ON );
+		vTaskDelay( dutty );
+		gpioWrite( led , OFF );
+		vTaskDelayUntil( &xLastWakeTime , xPeriodicity );
     }
 }
 

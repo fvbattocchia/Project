@@ -1,0 +1,375 @@
+projects/D2/out/D2.elf:1a000300 0000001c t keys_ButtonError
+projects/D2/out/D2.elf:1a00031c 00000020 t buttonPressed
+projects/D2/out/D2.elf:1a00036c 00000030 t buttonReleased
+projects/D2/out/D2.elf:100009ec 00000004 b heap_end.5864
+projects/D2/out/D2.elf:100009f4 00002000 b ucHeap
+projects/D2/out/D2.elf:100009f0 00000004 b pucAlignedHeap.11506
+projects/D2/out/D2.elf:100029f4 00000004 b xNextFreeByte
+projects/D2/out/D2.elf:1a000814 0000002c t prvResetNextTaskUnblockTime
+projects/D2/out/D2.elf:1a000840 00000012 t prvDeleteTCB
+projects/D2/out/D2.elf:1a000852 00000090 t prvInitialiseNewTask
+projects/D2/out/D2.elf:1a0008e4 0000005c t prvInitialiseTaskLists
+projects/D2/out/D2.elf:1a000940 000000a8 t prvAddNewTaskToReadyList
+projects/D2/out/D2.elf:1a0009e8 0000004c t prvCheckTasksWaitingTermination
+projects/D2/out/D2.elf:1a000a34 00000028 t prvIdleTask
+projects/D2/out/D2.elf:1a000a5c 0000007c t prvAddCurrentTaskToDelayedList
+projects/D2/out/D2.elf:100029fc 00000004 b pxDelayedTaskList
+projects/D2/out/D2.elf:10002a00 00000004 b pxOverflowDelayedTaskList
+projects/D2/out/D2.elf:10002a04 0000008c b pxReadyTasksLists
+projects/D2/out/D2.elf:10002a90 00000004 b uxCurrentNumberOfTasks
+projects/D2/out/D2.elf:10002a94 00000004 b uxDeletedTasksWaitingCleanUp
+projects/D2/out/D2.elf:10002a98 00000004 b uxPendedTicks
+projects/D2/out/D2.elf:10002a9c 00000004 b uxSchedulerSuspended
+projects/D2/out/D2.elf:10002aa0 00000004 b uxTaskNumber
+projects/D2/out/D2.elf:10002aa4 00000004 b uxTopReadyPriority
+projects/D2/out/D2.elf:10002aa8 00000014 b xDelayedTaskList1
+projects/D2/out/D2.elf:10002abc 00000014 b xDelayedTaskList2
+projects/D2/out/D2.elf:10002ad0 00000004 b xIdleTaskHandle
+projects/D2/out/D2.elf:10002ad4 00000004 b xNextTaskUnblockTime
+projects/D2/out/D2.elf:10002ad8 00000004 b xNumOfOverflows
+projects/D2/out/D2.elf:10002adc 00000014 b xPendingReadyList
+projects/D2/out/D2.elf:10002af0 00000004 b xSchedulerRunning
+projects/D2/out/D2.elf:10002af4 00000014 b xTasksWaitingTermination
+projects/D2/out/D2.elf:10002b08 00000004 b xTickCount
+projects/D2/out/D2.elf:10002b0c 00000004 b xYieldPending
+projects/D2/out/D2.elf:1a000fa4 00000040 t prvTaskExitError
+projects/D2/out/D2.elf:1a000fe4 00000022 t prvPortStartFirstTask
+projects/D2/out/D2.elf:1a00100c 0000000e t vPortEnableVFP
+projects/D2/out/D2.elf:1a001070 t pxCurrentTCBConst2
+projects/D2/out/D2.elf:1a001150 t pxCurrentTCBConst
+projects/D2/out/D2.elf:10002b10 00000001 b ucMaxSysCallPriority
+projects/D2/out/D2.elf:10002b14 00000004 b ulMaxPRIGROUPValue
+projects/D2/out/D2.elf:10000000 00000004 d uxCriticalNesting
+projects/D2/out/D2.elf:1a0012c8 00000044 t Board_LED_Init
+projects/D2/out/D2.elf:1a00130c 00000040 t Board_TEC_Init
+projects/D2/out/D2.elf:1a00134c 00000040 t Board_GPIO_Init
+projects/D2/out/D2.elf:1a00138c 00000030 t Board_ADC_Init
+projects/D2/out/D2.elf:1a0013bc 00000038 t Board_SPI_Init
+projects/D2/out/D2.elf:1a0013f4 00000024 t Board_I2C_Init
+projects/D2/out/D2.elf:1a007fc8 00000008 t GpioButtons
+projects/D2/out/D2.elf:1a007fd0 0000000c t GpioLeds
+projects/D2/out/D2.elf:1a007fdc 00000012 t GpioPorts
+projects/D2/out/D2.elf:1a007ff4 00000004 t InitClkStates
+projects/D2/out/D2.elf:1a007ff8 00000074 t pinmuxing
+projects/D2/out/D2.elf:1a001568 0000002c t Chip_UART_GetIndex
+projects/D2/out/D2.elf:1a00806c 00000008 t UART_BClock
+projects/D2/out/D2.elf:1a008074 00000008 t UART_PClock
+projects/D2/out/D2.elf:1a0016c4 00000014 t Chip_ADC_GetClockIndex
+projects/D2/out/D2.elf:1a0016d8 00000032 t getClkDiv
+projects/D2/out/D2.elf:1a0017a0 000000a0 t pll_calc_divs
+projects/D2/out/D2.elf:1a001840 0000010c t pll_get_frac
+projects/D2/out/D2.elf:1a00194c 0000004c t Chip_Clock_FindBaseClock
+projects/D2/out/D2.elf:1a001bc0 00000022 t Chip_Clock_GetDivRate
+projects/D2/out/D2.elf:10002b18 00000008 b audio_usb_pll_freq
+projects/D2/out/D2.elf:1a008088 0000006c t periph_to_base
+projects/D2/out/D2.elf:1a0080f4 00000048 t InitClkStates
+projects/D2/out/D2.elf:10000004 00000038 d i2c
+projects/D2/out/D2.elf:1a001f04 00000014 t Chip_SSP_GetClockIndex
+projects/D2/out/D2.elf:1a001f18 00000018 t Chip_SSP_GetPeriphClockIndex
+projects/D2/out/D2.elf:1000003c 00000004 d ClockSpeed
+projects/D2/out/D2.elf:1a00200c 00000034 t gpioObtainPinInit
+projects/D2/out/D2.elf:10002b20 00000004 b g_hUsb
+projects/D2/out/D2.elf:1a0031ec 00000050 t std
+projects/D2/out/D2.elf:1a005af4 00000084 t __sbprintf
+projects/D2/out/D2.elf:1a008370 00000010 t blanks.8693
+projects/D2/out/D2.elf:1a008380 00000010 t zeroes.8694
+projects/D2/out/D2.elf:1a005c48 00000124 t quorem
+projects/D2/out/D2.elf:1a008490 0000000c t p05.7442
+projects/D2/out/D2.elf:1a007ba0 00000076 t __sprint_r.part.0
+projects/D2/out/D2.elf:10000048 00000428 d impure_data
+projects/D2/out/D2.elf:1a0084b0 t __init_array_end
+projects/D2/out/D2.elf:1a0084ac b __preinit_array_end
+projects/D2/out/D2.elf:1a0084ac t __init_array_start
+projects/D2/out/D2.elf:1a0084ac b __preinit_array_start
+projects/D2/out/D2.elf:1a002bf4 0000002c T __aeabi_dcmpun
+projects/D2/out/D2.elf:1a0019e4 0000001c T Chip_Clock_GetDividerSource
+projects/D2/out/D2.elf:1a000604 00000012 T _isatty_r
+projects/D2/out/D2.elf:1a002bb8 00000012 T __aeabi_dcmple
+projects/D2/out/D2.elf:1a003d70 0000009c T _puts_r
+projects/D2/out/D2.elf:1a002af4 0000007a T __cmpdf2
+projects/D2/out/D2.elf:1a000616 0000000a T _lseek_r
+projects/D2/out/D2.elf:1a000130 00000002 W DebugMon_Handler
+projects/D2/out/D2.elf:1a080000 A __top_MFlashA512
+projects/D2/out/D2.elf:1a002af4 0000007a T __eqdf2
+projects/D2/out/D2.elf:1a0000c0 T __section_table_start
+projects/D2/out/D2.elf:1a0010b8 0000002c T vPortExitCritical
+projects/D2/out/D2.elf:1a002664 0000005a T __floatdidf
+projects/D2/out/D2.elf:1a000166 00000002 W I2C0_IRQHandler
+projects/D2/out/D2.elf:1a003d48 00000028 T printf
+projects/D2/out/D2.elf:1a0014ae 00000008 T __stdio_init
+projects/D2/out/D2.elf:10002b80 00000001 B __lock___atexit_recursive_mutex
+projects/D2/out/D2.elf:1a007e78 00000034 T _wcrtomb_r
+projects/D2/out/D2.elf:1a003e80 00000020 T __sseek
+projects/D2/out/D2.elf:1a003248 00000054 T __sinit
+projects/D2/out/D2.elf:1a007dc8 000000b0 T __swbuf_r
+projects/D2/out/D2.elf:1a000126 00000002 W HardFault_Handler
+projects/D2/out/D2.elf:1a000000 A __vectors_start__
+projects/D2/out/D2.elf:1a00177e 0000000c T Chip_ADC_SetResolution
+projects/D2/out/D2.elf:1a003d3c 0000000c T __malloc_unlock
+projects/D2/out/D2.elf:1a001154 0000002c T SysTick_Handler
+projects/D2/out/D2.elf:1a000166 00000002 W SPIFI_ADCHS_IRQHandler
+projects/D2/out/D2.elf:10002b84 00000001 B __lock___arc4random_mutex
+projects/D2/out/D2.elf:1a000560 00000002 W initialise_monitor_handles
+projects/D2/out/D2.elf:1a000166 00000002 W SDIO_IRQHandler
+projects/D2/out/D2.elf:1a001450 0000001c T Board_UARTGetChar
+projects/D2/out/D2.elf:1a007070 000000ce T memmove
+projects/D2/out/D2.elf:1a0010f0 00000064 T PendSV_Handler
+projects/D2/out/D2.elf:1a000124 00000002 W NMI_Handler
+projects/D2/out/D2.elf:1a007140 0000004c T _Balloc
+projects/D2/out/D2.elf:1a0084b8 R __exidx_end
+projects/D2/out/D2.elf:1a0000fc T __data_section_table_end
+projects/D2/out/D2.elf:1a000166 00000002 W UART1_IRQHandler
+projects/D2/out/D2.elf:1a002ae4 0000008a T __gtdf2
+projects/D2/out/D2.elf:100029f8 00000004 B pxCurrentTCB
+projects/D2/out/D2.elf:1a0005fa 0000000a T _fstat_r
+projects/D2/out/D2.elf:53ff74ce A __valid_user_code_checksum
+projects/D2/out/D2.elf:1a0084b8 R _etext
+projects/D2/out/D2.elf:1a007ed4 00000002 T keys_config
+projects/D2/out/D2.elf:1a002b80 00000010 T __aeabi_cdcmple
+projects/D2/out/D2.elf:1a000166 00000002 W USB1_IRQHandler
+projects/D2/out/D2.elf:1a000166 00000002 W TIMER3_IRQHandler
+projects/D2/out/D2.elf:1a001c62 0000000c T Chip_Clock_GetBaseClocktHz
+projects/D2/out/D2.elf:1a000166 00000002 W UART0_IRQHandler
+projects/D2/out/D2.elf:1a000154 00000012 T bss_init
+projects/D2/out/D2.elf:1a0011b8 00000110 T xPortStartScheduler
+projects/D2/out/D2.elf:1a003b5c 00000134 T memcpy
+projects/D2/out/D2.elf:1a002b70 00000020 T __aeabi_cdrcmple
+projects/D2/out/D2.elf:1a000166 00000002 W SGPIO_IRQHandler
+projects/D2/out/D2.elf:1a00323c 0000000c T _cleanup_r
+projects/D2/out/D2.elf:1a0025ec 00000022 T __floatsidf
+projects/D2/out/D2.elf:1a001180 00000038 W vPortSetupTimerInterrupt
+projects/D2/out/D2.elf:1a002aec 00000082 T __ltdf2
+projects/D2/out/D2.elf:1a002c70 T __aeabi_uldivmod
+projects/D2/out/D2.elf:10002ba4 ? _noinit
+projects/D2/out/D2.elf:1a003e0c 00000010 T puts
+projects/D2/out/D2.elf:1a000728 00000016 T vPortFree
+projects/D2/out/D2.elf:10002b78 00000004 B SystemCoreClock
+projects/D2/out/D2.elf:1a001594 00000054 T Chip_UART_Init
+projects/D2/out/D2.elf:1a000166 00000002 W ADC0_IRQHandler
+projects/D2/out/D2.elf:1a0083c8 000000c8 T __mprec_tens
+projects/D2/out/D2.elf:1a00012c 00000002 W UsageFault_Handler
+projects/D2/out/D2.elf:1a001ce0 0000004c T Chip_Clock_GetRate
+projects/D2/out/D2.elf:1a00075a 00000016 T vListInsertEnd
+projects/D2/out/D2.elf:10002b54 00000004 B __malloc_top_pad
+projects/D2/out/D2.elf:1a0014f0 0000006c T Board_SetupClocking
+projects/D2/out/D2.elf:20008000 A __top_RamAHB32
+projects/D2/out/D2.elf:1a0025cc 0000001e T __aeabi_ui2d
+projects/D2/out/D2.elf:1a006ecc 00000008 T _localeconv_r
+projects/D2/out/D2.elf:1a0072cc 00000012 T __i2b
+projects/D2/out/D2.elf:1a006bc4 00000308 T __sfvwrite_r
+projects/D2/out/D2.elf:1a002ca0 000002d0 T __udivmoddi4
+projects/D2/out/D2.elf:1a002348 T __aeabi_drsub
+projects/D2/out/D2.elf:1a000698 00000020 T _sbrk_r
+projects/D2/out/D2.elf:1a007fc4 00000004 T ExtRateIn
+projects/D2/out/D2.elf:1a000166 00000002 W IntDefaultHandler
+projects/D2/out/D2.elf:1a000166 00000002 W SSP0_SSP1_IRQHandler
+projects/D2/out/D2.elf:1a000300 T __CRP_WORD_END__
+projects/D2/out/D2.elf:1a000620 0000004e T _read_r
+projects/D2/out/D2.elf:1a000754 00000006 T vListInitialiseItem
+projects/D2/out/D2.elf:1a002ba4 00000012 T __aeabi_dcmplt
+projects/D2/out/D2.elf:1a002f74 000000ce T _fclose_r
+projects/D2/out/D2.elf:10002b4c 00000004 B __malloc_max_sbrked_mem
+projects/D2/out/D2.elf:1a002610 00000042 T __extendsfdf2
+projects/D2/out/D2.elf:1a002914 000001d0 T __aeabi_ddiv
+projects/D2/out/D2.elf:1a002354 00000276 T __adddf3
+projects/D2/out/D2.elf:1a0084b0 R __exidx_start
+projects/D2/out/D2.elf:10002b88 00000001 B __lock___env_recursive_mutex
+projects/D2/out/D2.elf:1a0026c0 00000254 T __aeabi_dmul
+projects/D2/out/D2.elf:1a0002fc 00000004 T CRP_WORD
+projects/D2/out/D2.elf:10002b8c 00000001 B __lock___sinit_recursive_mutex
+projects/D2/out/D2.elf:1a007754 0000036c T _realloc_r
+projects/D2/out/D2.elf:1a003594 00000048 T __libc_init_array
+projects/D2/out/D2.elf:1a007d2c 00000064 T _fputwc_r
+projects/D2/out/D2.elf:1a0083a0 00000028 T __mprec_bigtens
+projects/D2/out/D2.elf:1a0025cc 0000001e T __floatunsidf
+projects/D2/out/D2.elf:1a000166 00000002 W ADC1_IRQHandler
+projects/D2/out/D2.elf:1a007564 00000038 T __mcmp
+projects/D2/out/D2.elf:1a0006b8 00000070 T pvPortMalloc
+projects/D2/out/D2.elf:1a000166 00000002 W RIT_WDT_IRQHandler
+projects/D2/out/D2.elf:1a000166 00000002 W FLASH_EEPROM_ATIMER_IRQHandler
+projects/D2/out/D2.elf:1a00146c 00000030 T Board_Init
+projects/D2/out/D2.elf:1a0005ee 00000002 W _init
+projects/D2/out/D2.elf:1a00073e 00000016 T vListInitialise
+projects/D2/out/D2.elf:1a0000c0 T __data_section_table
+projects/D2/out/D2.elf:1a000bc8 0000000c T xTaskGetTickCount
+projects/D2/out/D2.elf:1a000166 00000002 W RTC_IRQHandler
+projects/D2/out/D2.elf:10002ba4 B _ebss
+projects/D2/out/D2.elf:1a000166 00000002 W TIMER0_IRQHandler
+projects/D2/out/D2.elf:1a000564 00000088 T Reset_Handler
+projects/D2/out/D2.elf:20010000 A __top_RamAHB_ETB16
+projects/D2/out/D2.elf:1a00722c 00000040 T __hi0bits
+projects/D2/out/D2.elf:1a001ecc 00000038 T Chip_I2C_SetClockRate
+projects/D2/out/D2.elf:1a002c20 0000004e T __fixdfsi
+projects/D2/out/D2.elf:1a000166 00000002 W LCD_IRQHandler
+projects/D2/out/D2.elf:1a001998 0000004c T Chip_Clock_EnableCrystal
+projects/D2/out/D2.elf:10002b90 00000001 B __lock___malloc_recursive_mutex
+projects/D2/out/D2.elf:1a000166 00000002 W M4_IRQHandler
+projects/D2/out/D2.elf:10008000 A __top_RamLoc32
+projects/D2/out/D2.elf:1a000540 00000020 T vApplicationMallocFailedHook
+projects/D2/out/D2.elf:1a002354 00000276 T __aeabi_dadd
+projects/D2/out/D2.elf:1a000136 0000001e T data_init
+projects/D2/out/D2.elf:1a002aec 00000082 T __ledf2
+projects/D2/out/D2.elf:1a007410 000000a0 T __pow5mult
+projects/D2/out/D2.elf:1a002654 0000006a T __aeabi_ul2d
+projects/D2/out/D2.elf:1a001ea8 00000024 T Chip_I2C_Init
+projects/D2/out/D2.elf:1a00039c 0000005c T keys_Init
+projects/D2/out/D2.elf:1a0035e8 00000002 T __retarget_lock_release_recursive
+projects/D2/out/D2.elf:1a001b54 0000006c T Chip_Clock_GetMainPLLHz
+projects/D2/out/D2.elf:1a00813c 000000e6 T gpioPinsInit
+projects/D2/out/D2.elf:1a0007cc 0000002c W vAssertCalled
+projects/D2/out/D2.elf:1a001f30 00000012 T Chip_SSP_SetClockRate
+projects/D2/out/D2.elf:1a002be0 00000012 T __aeabi_dcmpgt
+projects/D2/out/D2.elf:1a00329c 0000000c T __sfp_lock_acquire
+projects/D2/out/D2.elf:1a006fd0 T memchr
+projects/D2/out/D2.elf:1a003354 000001ec T _free_r
+projects/D2/out/D2.elf:1a001c3c 00000026 T Chip_Clock_GetBaseClock
+projects/D2/out/D2.elf:1a007d90 0000000c T __locale_mb_cur_max
+projects/D2/out/D2.elf:1a002bcc 00000012 T __aeabi_dcmpge
+projects/D2/out/D2.elf:100009ec B _bss
+projects/D2/out/D2.elf:1a00174c 00000032 T Chip_ADC_SetSampleRate
+projects/D2/out/D2.elf:1a002350 0000027a T __aeabi_dsub
+projects/D2/out/D2.elf:10000878 00000004 D __malloc_sbrk_base
+projects/D2/out/D2.elf:1a000bb8 00000010 T vTaskSuspendAll
+projects/D2/out/D2.elf:1a002654 0000006a T __floatundidf
+projects/D2/out/D2.elf:1a0074b0 000000b2 T __lshift
+projects/D2/out/D2.elf:1a001f42 0000003e T Chip_SSP_SetBitRate
+projects/D2/out/D2.elf:1a0007a4 00000026 T uxListRemove
+projects/D2/out/D2.elf:1a000166 00000002 W I2S0_I2S1_QEI_IRQHandler
+projects/D2/out/D2.elf:1a001e84 00000002 T Chip_GPIO_Init
+projects/D2/out/D2.elf:1a007ff0 00000004 T OscRateIn
+projects/D2/out/D2.elf:1a0072e0 00000130 T __multiply
+projects/D2/out/D2.elf:10002ba4 ? _end_noinit
+projects/D2/out/D2.elf:10008000 A _vStackTop
+projects/D2/out/D2.elf:1a007b2c 00000072 T strncpy
+projects/D2/out/D2.elf:10002b24 00000028 B __malloc_current_mallinfo
+projects/D2/out/D2.elf:1a007694 000000be T __d2b
+projects/D2/out/D2.elf:1a000ed8 000000cc T vTaskSwitchContext
+projects/D2/out/D2.elf:1a000124 T __bss_section_table_end
+projects/D2/out/D2.elf:1a0005f0 0000000a T _close_r
+projects/D2/out/D2.elf:1a0025ec 00000022 T __aeabi_i2d
+projects/D2/out/D2.elf:1a002040 000001ac T gpioInit
+projects/D2/out/D2.elf:1a0035e0 00000002 T __retarget_lock_close_recursive
+projects/D2/out/D2.elf:1a005b78 000000d0 T __swsetup_r
+projects/D2/out/D2.elf:1a0007f8 0000001c W vApplicationStackOverflowHook
+projects/D2/out/D2.elf:1a002f70 00000002 W __aeabi_ldiv0
+projects/D2/out/D2.elf:1a002914 000001d0 T __divdf3
+projects/D2/out/D2.elf:10000470 00000408 D __malloc_av_
+projects/D2/out/D2.elf:1a0026c0 00000254 T __muldf3
+projects/D2/out/D2.elf:1a003e1c 00000022 T __sread
+projects/D2/out/D2.elf:1a0022c0 0000001c T USB0_IRQHandler
+projects/D2/out/D2.elf:1a003d30 0000000c T __malloc_lock
+projects/D2/out/D2.elf:1a00143c 00000014 T Board_UARTPutChar
+projects/D2/out/D2.elf:1a000166 00000002 W SCT_IRQHandler
+projects/D2/out/D2.elf:1a003190 0000005a T _fflush_r
+projects/D2/out/D2.elf:1a007c2c 0000005e T _calloc_r
+projects/D2/out/D2.elf:1a001a00 0000001c T Chip_Clock_GetDividerDivisor
+projects/D2/out/D2.elf:1a0002fc T __CRP_WORD_START__
+projects/D2/out/D2.elf:1a0035e4 00000002 T __retarget_lock_acquire_recursive
+projects/D2/out/D2.elf:1a003c90 000000a0 T memset
+projects/D2/out/D2.elf:1a000128 00000002 W MemManage_Handler
+projects/D2/out/D2.elf:1a0004e4 0000005c T main
+projects/D2/out/D2.elf:10002b50 00000004 B __malloc_max_total_mem
+projects/D2/out/D2.elf:1a0035dc 00000002 T __retarget_lock_init_recursive
+projects/D2/out/D2.elf:1a000770 00000034 T vListInsert
+projects/D2/out/D2.elf:2000c000 A __top_RamAHB16
+projects/D2/out/D2.elf:1008a000 A __top_RamLoc40
+projects/D2/out/D2.elf:1a001050 00000024 T SVC_Handler
+projects/D2/out/D2.elf:1a003ea0 00000008 T __sclose
+projects/D2/out/D2.elf:1a005d70 00000e54 T _dtoa_r
+projects/D2/out/D2.elf:1a0035ec 00000570 T _malloc_r
+projects/D2/out/D2.elf:1a007eac 0000001a T __ascii_wctomb
+projects/D2/out/D2.elf:1a002664 0000005a T __aeabi_l2d
+projects/D2/out/D2.elf:1a000de8 000000a4 T vTaskDelayUntil
+projects/D2/out/D2.elf:1a001c70 0000003c T Chip_Clock_EnableOpts
+projects/D2/out/D2.elf:1a0014a6 00000008 T __stdio_getchar
+projects/D2/out/D2.elf:1a0032b4 000000a0 T _malloc_trim_r
+projects/D2/out/D2.elf:1a001a1c 000000b8 T Chip_Clock_GetClockInputHz
+projects/D2/out/D2.elf:1a001ad4 00000080 T Chip_Clock_CalcMainPLLValue
+projects/D2/out/D2.elf:1a000354 00000018 T clear_diff
+projects/D2/out/D2.elf:1a001fb8 00000038 T SystemInit
+projects/D2/out/D2.elf:1a0000fc T __bss_section_table
+projects/D2/out/D2.elf:1a002af4 0000007a T __nedf2
+projects/D2/out/D2.elf:1a0021ec 0000006a T gpioWrite
+projects/D2/out/D2.elf:1a0005ec 00000002 W _fini
+projects/D2/out/D2.elf:1a000cec 000000fc T xTaskResumeAll
+projects/D2/out/D2.elf:1a000b3c 0000007c T vTaskStartScheduler
+projects/D2/out/D2.elf:1a0003f8 00000098 T keys_Update
+projects/D2/out/D2.elf:1a00170c 00000040 T Chip_ADC_Init
+projects/D2/out/D2.elf:10002b7c 00000004 B g_pUsbApi
+projects/D2/out/D2.elf:1a0014b8 00000038 T Board_SetupMuxing
+projects/D2/out/D2.elf:1a0015e8 000000dc T Chip_UART_SetBaudFDR
+projects/D2/out/D2.elf:1a00066e 00000028 T _write_r
+projects/D2/out/D2.elf:1a000166 00000002 W SPI_DAC_IRQHandler
+projects/D2/out/D2.elf:10002b58 00000020 B keys_data
+projects/D2/out/D2.elf:1a0004aa 0000003a T task_led
+projects/D2/out/D2.elf:1a000166 00000002 W ETH_IRQHandler
+projects/D2/out/D2.elf:10000040 00000004 D _impure_ptr
+projects/D2/out/D2.elf:1a003044 0000014a T __sflush_r
+projects/D2/out/D2.elf:10000000 ? _end_uninit_RESERVED
+projects/D2/out/D2.elf:1b000000 T __core_m0app_START__
+projects/D2/out/D2.elf:1a000166 00000002 W CAN0_IRQHandler
+projects/D2/out/D2.elf:1a00033c 00000018 T get_diff
+projects/D2/out/D2.elf:1a007d9c 0000002a T __ascii_mbtowc
+projects/D2/out/D2.elf:10000000 D _data
+projects/D2/out/D2.elf:10002ba4 B _pvHeapStart
+projects/D2/out/D2.elf:1a000166 00000002 W UART2_CAN1_IRQHandler
+projects/D2/out/D2.elf:1a000124 T __section_table_end
+projects/D2/out/D2.elf:1a001f80 00000038 T Chip_SSP_Init
+projects/D2/out/D2.elf:1a000bd4 00000118 T xTaskIncrementTick
+projects/D2/out/D2.elf:1a006ed4 0000005c T __swhatbuf_r
+projects/D2/out/D2.elf:1a001418 00000024 T Board_Debug_Init
+projects/D2/out/D2.elf:1a002b90 00000012 T __aeabi_dcmpeq
+projects/D2/out/D2.elf:1a00149c 0000000a T __stdio_putchar
+projects/D2/out/D2.elf:100009ec D _edata
+projects/D2/out/D2.elf:1a001e88 00000020 T Chip_I2C_EventHandler
+projects/D2/out/D2.elf:1a000166 00000002 W M0SUB_IRQHandler
+projects/D2/out/D2.elf:1a007c8c 0000009e T __fputwc
+projects/D2/out/D2.elf:10002b94 00000001 B __lock___at_quick_exit_mutex
+projects/D2/out/D2.elf:1a000ad8 00000062 T xTaskCreate
+projects/D2/out/D2.elf:1a001d2c 00000158 T Chip_SetupCoreClock
+projects/D2/out/D2.elf:1a003e40 0000003e T __swrite
+projects/D2/out/D2.elf:1000087c 00000004 D __malloc_trim_threshold
+projects/D2/out/D2.elf:1a000000 00000040 T g_pfnVectors
+projects/D2/out/D2.elf:1a003540 00000052 T _fwalk_reent
+projects/D2/out/D2.elf:1a00178c 00000014 T SystemCoreClockUpdate
+projects/D2/out/D2.elf:1a000490 0000001a T task_tecla
+projects/D2/out/D2.elf:1a00759c 000000f8 T __mdiff
+projects/D2/out/D2.elf:1a002c20 0000004e T __aeabi_d2iz
+projects/D2/out/D2.elf:1a000166 00000002 W DMA_IRQHandler
+projects/D2/out/D2.elf:1a000e8c 0000004c T vTaskDelay
+projects/D2/out/D2.elf:1a000166 00000002 W EVRT_IRQHandler
+projects/D2/out/D2.elf:1b080000 A __top_MFlashB512
+projects/D2/out/D2.elf:1a0032a8 0000000c T __sfp_lock_release
+projects/D2/out/D2.elf:1a008224 00000101 T _ctype_
+projects/D2/out/D2.elf:1a002f70 00000002 W __aeabi_idiv0
+projects/D2/out/D2.elf:1a002bf4 0000002c T __unorddf2
+projects/D2/out/D2.elf:1a00012a 00000002 W BusFault_Handler
+projects/D2/out/D2.elf:10002b98 00000001 B __lock___dd_hash_mutex
+projects/D2/out/D2.elf:1a006f30 00000094 T __smakebuf_r
+projects/D2/out/D2.elf:10002b9c 00000001 B __lock___tz_mutex
+projects/D2/out/D2.elf:1a003ec0 000000dc T strlen
+projects/D2/out/D2.elf:1a001020 0000002c T pxPortInitialiseStack
+projects/D2/out/D2.elf:1a001cac 00000034 T Chip_Clock_Enable
+projects/D2/out/D2.elf:1a002b80 00000010 T __aeabi_cdcmpeq
+projects/D2/out/D2.elf:1a002ae4 0000008a T __gedf2
+projects/D2/out/D2.elf:1a000166 00000002 W UART3_IRQHandler
+projects/D2/out/D2.elf:1a000166 00000002 W MCPWM_IRQHandler
+projects/D2/out/D2.elf:1a007c18 00000014 T __sprint_r
+projects/D2/out/D2.elf:1a002256 00000068 T gpioRead
+projects/D2/out/D2.elf:1a002610 00000042 T __aeabi_f2d
+projects/D2/out/D2.elf:1a0022dc 0000006c T boardInit
+projects/D2/out/D2.elf:1a001074 00000044 T vPortEnterCritical
+projects/D2/out/D2.elf:1a000040 00000080 T g_pfnVendorVectors
+projects/D2/out/D2.elf:1a002350 0000027a T __subdf3
+projects/D2/out/D2.elf:1a003fa0 00001b54 T _vfprintf_r
+projects/D2/out/D2.elf:1a000166 00000002 W GINT1_IRQHandler
+projects/D2/out/D2.elf:1a00726c 00000060 T __lo0bits
+projects/D2/out/D2.elf:1a007ac0 0000006c T frexp
+projects/D2/out/D2.elf:10000880 0000016c D __global_locale
+projects/D2/out/D2.elf:1a001be4 00000058 T Chip_Clock_SetBaseClock
+projects/D2/out/D2.elf:1a001ff0 0000001c T cyclesCounterInit
+projects/D2/out/D2.elf:1a000166 00000002 W GPIO4_IRQHandler
+projects/D2/out/D2.elf:10002ba0 00000001 B __lock___sfp_recursive_mutex
+projects/D2/out/D2.elf:1a00155c 0000000c T Board_SystemInit
+projects/D2/out/D2.elf:1a0071a0 0000008a T __multadd
+projects/D2/out/D2.elf:1a00718c 00000012 T _Bfree

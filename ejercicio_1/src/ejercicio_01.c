@@ -1,7 +1,10 @@
 #include "sapi.h"
+#include "i2s_18xx_43xx.h"
+#define SOUND_I2S_PORT LPC_I2S1
 
 int main( void )
 {
+   Chip_I2S_TxStart(LPC_I2S1);
    boardInit();
    tick_t count1   = 0,count2   = 0,count3   = 0;
    delay_t timer1,timer2,timer3;
