@@ -1,0 +1,352 @@
+projects/E3/out/E3.elf:1a000300 00000010 t keys_ButtonError
+projects/E3/out/E3.elf:1a000310 00000018 t buttonPressed
+projects/E3/out/E3.elf:1a000328 00000044 t buttonReleased
+projects/E3/out/E3.elf:100000ac 00000001 b debugPrint
+projects/E3/out/E3.elf:100000b0 00000004 b heap_end.5864
+projects/E3/out/E3.elf:100000b8 00002000 b ucHeap
+projects/E3/out/E3.elf:100000b4 00000004 b pucAlignedHeap.11512
+projects/E3/out/E3.elf:100020b8 00000004 b xNextFreeByte
+projects/E3/out/E3.elf:1a000736 0000001e t prvIsQueueFull
+projects/E3/out/E3.elf:1a000754 0000001a t prvIsQueueEmpty
+projects/E3/out/E3.elf:1a00076e 00000076 t prvCopyDataToQueue
+projects/E3/out/E3.elf:1a0007e4 00000024 t prvCopyDataFromQueue
+projects/E3/out/E3.elf:1a000808 0000006e t prvUnlockQueue
+projects/E3/out/E3.elf:1a0008fc 00000022 t prvInitialiseNewQueue
+projects/E3/out/E3.elf:1a000e80 0000002c t prvResetNextTaskUnblockTime
+projects/E3/out/E3.elf:1a000eac 00000012 t prvDeleteTCB
+projects/E3/out/E3.elf:1a000ebe 00000090 t prvInitialiseNewTask
+projects/E3/out/E3.elf:1a000f50 00000068 t prvInitialiseTaskLists
+projects/E3/out/E3.elf:1a000fb8 000000ac t prvAddNewTaskToReadyList
+projects/E3/out/E3.elf:1a001064 0000004c t prvCheckTasksWaitingTermination
+projects/E3/out/E3.elf:1a0010b0 00000028 t prvIdleTask
+projects/E3/out/E3.elf:1a0010d8 00000098 t prvAddCurrentTaskToDelayedList
+projects/E3/out/E3.elf:100020c0 00000004 b pxDelayedTaskList
+projects/E3/out/E3.elf:100020c4 00000004 b pxOverflowDelayedTaskList
+projects/E3/out/E3.elf:100020c8 0000008c b pxReadyTasksLists
+projects/E3/out/E3.elf:10002154 00000004 b uxCurrentNumberOfTasks
+projects/E3/out/E3.elf:10002158 00000004 b uxDeletedTasksWaitingCleanUp
+projects/E3/out/E3.elf:1000215c 00000004 b uxPendedTicks
+projects/E3/out/E3.elf:10002160 00000004 b uxSchedulerSuspended
+projects/E3/out/E3.elf:10002164 00000004 b uxTaskNumber
+projects/E3/out/E3.elf:10002168 00000004 b uxTopReadyPriority
+projects/E3/out/E3.elf:1000216c 00000014 b xDelayedTaskList1
+projects/E3/out/E3.elf:10002180 00000014 b xDelayedTaskList2
+projects/E3/out/E3.elf:10002194 00000004 b xIdleTaskHandle
+projects/E3/out/E3.elf:10002198 00000004 b xNextTaskUnblockTime
+projects/E3/out/E3.elf:1000219c 00000004 b xNumOfOverflows
+projects/E3/out/E3.elf:100021a0 00000014 b xPendingReadyList
+projects/E3/out/E3.elf:100021b4 00000004 b xSchedulerRunning
+projects/E3/out/E3.elf:100021b8 00000014 b xSuspendedTaskList
+projects/E3/out/E3.elf:100021cc 00000014 b xTasksWaitingTermination
+projects/E3/out/E3.elf:100021e0 00000004 b xTickCount
+projects/E3/out/E3.elf:100021e4 00000004 b xYieldPending
+projects/E3/out/E3.elf:1a0018b4 00000020 t prvGetNextExpireTime
+projects/E3/out/E3.elf:1a0018d4 00000048 t prvInsertTimerInActiveList
+projects/E3/out/E3.elf:1a00191c 0000005c t prvCheckForValidListAndQueue
+projects/E3/out/E3.elf:1a001ca0 00000016 t prvTimerTask
+projects/E3/out/E3.elf:1a001a34 00000078 t prvSwitchTimerLists
+projects/E3/out/E3.elf:1a001aac 0000002c t prvSampleTimeNow
+projects/E3/out/E3.elf:1a001ad8 00000060 t prvProcessExpiredTimer
+projects/E3/out/E3.elf:1a001b38 00000074 t prvProcessTimerOrBlockTask
+projects/E3/out/E3.elf:1a001bac 000000f4 t prvProcessReceivedCommands
+projects/E3/out/E3.elf:100021e8 00000004 b pxCurrentTimerList
+projects/E3/out/E3.elf:100021ec 00000004 b pxOverflowTimerList
+projects/E3/out/E3.elf:100021f0 00000014 b xActiveTimerList1
+projects/E3/out/E3.elf:10002204 00000014 b xActiveTimerList2
+projects/E3/out/E3.elf:10002218 00000004 b xLastTime.11818
+projects/E3/out/E3.elf:1000221c 00000004 b xTimerQueue
+projects/E3/out/E3.elf:10002220 00000004 b xTimerTaskHandle
+projects/E3/out/E3.elf:1a001cb8 00000040 t prvTaskExitError
+projects/E3/out/E3.elf:1a001cf8 00000022 t prvPortStartFirstTask
+projects/E3/out/E3.elf:1a001d20 0000000e t vPortEnableVFP
+projects/E3/out/E3.elf:1a001d80 t pxCurrentTCBConst2
+projects/E3/out/E3.elf:1a001e60 t pxCurrentTCBConst
+projects/E3/out/E3.elf:10002224 00000001 b ucMaxSysCallPriority
+projects/E3/out/E3.elf:10002228 00000004 b ulMaxPRIGROUPValue
+projects/E3/out/E3.elf:10000008 00000004 d uxCriticalNesting
+projects/E3/out/E3.elf:1a002034 00000044 t Board_LED_Init
+projects/E3/out/E3.elf:1a002078 00000040 t Board_TEC_Init
+projects/E3/out/E3.elf:1a0020b8 00000040 t Board_GPIO_Init
+projects/E3/out/E3.elf:1a0020f8 00000030 t Board_ADC_Init
+projects/E3/out/E3.elf:1a002128 00000038 t Board_SPI_Init
+projects/E3/out/E3.elf:1a002160 00000024 t Board_I2C_Init
+projects/E3/out/E3.elf:1a00452c 00000008 t GpioButtons
+projects/E3/out/E3.elf:1a004534 0000000c t GpioLeds
+projects/E3/out/E3.elf:1a004540 00000012 t GpioPorts
+projects/E3/out/E3.elf:1a004558 00000004 t InitClkStates
+projects/E3/out/E3.elf:1a00455c 00000074 t pinmuxing
+projects/E3/out/E3.elf:1a0022d4 0000002c t Chip_UART_GetIndex
+projects/E3/out/E3.elf:1a0045d0 00000008 t UART_BClock
+projects/E3/out/E3.elf:1a0045d8 00000008 t UART_PClock
+projects/E3/out/E3.elf:1a002470 00000014 t Chip_ADC_GetClockIndex
+projects/E3/out/E3.elf:1a002484 00000032 t getClkDiv
+projects/E3/out/E3.elf:1a00254c 000000a0 t pll_calc_divs
+projects/E3/out/E3.elf:1a0025ec 0000010c t pll_get_frac
+projects/E3/out/E3.elf:1a0026f8 0000004c t Chip_Clock_FindBaseClock
+projects/E3/out/E3.elf:1a00296c 00000022 t Chip_Clock_GetDivRate
+projects/E3/out/E3.elf:1000222c 00000008 b audio_usb_pll_freq
+projects/E3/out/E3.elf:1a0045ec 0000006c t periph_to_base
+projects/E3/out/E3.elf:1a004658 00000048 t InitClkStates
+projects/E3/out/E3.elf:1000000c 00000038 d i2c
+projects/E3/out/E3.elf:1a002cb0 00000014 t Chip_SSP_GetClockIndex
+projects/E3/out/E3.elf:1a002cc4 00000018 t Chip_SSP_GetPeriphClockIndex
+projects/E3/out/E3.elf:10000044 00000004 d ClockSpeed
+projects/E3/out/E3.elf:1a0046a0 00000048 t lpcUarts
+projects/E3/out/E3.elf:1a002e34 00000034 t gpioObtainPinInit
+projects/E3/out/E3.elf:10002234 00000004 b g_hUsb
+projects/E3/out/E3.elf:1a003608 00000048 t std
+projects/E3/out/E3.elf:1a0039bc 0000002e t __sfputc_r
+projects/E3/out/E3.elf:1000004c 00000060 d impure_data
+projects/E3/out/E3.elf:1a00486c t __init_array_end
+projects/E3/out/E3.elf:1a004868 b __preinit_array_end
+projects/E3/out/E3.elf:1a004868 t __init_array_start
+projects/E3/out/E3.elf:1a004868 b __preinit_array_start
+projects/E3/out/E3.elf:1a002790 0000001c T Chip_Clock_GetDividerSource
+projects/E3/out/E3.elf:1a0005fc 00000012 T _isatty_r
+projects/E3/out/E3.elf:1a003fa4 000000dc T _puts_r
+projects/E3/out/E3.elf:1a00060e 0000000a T _lseek_r
+projects/E3/out/E3.elf:1a000130 00000002 W DebugMon_Handler
+projects/E3/out/E3.elf:1a080000 A __top_MFlashA512
+projects/E3/out/E3.elf:1a0000c0 T __section_table_start
+projects/E3/out/E3.elf:1a001dc8 0000002c T vPortExitCritical
+projects/E3/out/E3.elf:1a000166 00000002 W I2C0_IRQHandler
+projects/E3/out/E3.elf:1a003f74 00000030 T printf
+projects/E3/out/E3.elf:1a00221a 00000008 T __stdio_init
+projects/E3/out/E3.elf:100022cc 00000001 B __lock___atexit_recursive_mutex
+projects/E3/out/E3.elf:1a0040ea 00000024 T __sseek
+projects/E3/out/E3.elf:1a0036b8 00000070 T __sinit
+projects/E3/out/E3.elf:1a004118 000000a4 T __swbuf_r
+projects/E3/out/E3.elf:1a000126 00000002 W HardFault_Handler
+projects/E3/out/E3.elf:1a000d3c 00000052 T vQueueWaitForMessageRestricted
+projects/E3/out/E3.elf:1a00365c 0000002c T __sfmoreglue
+projects/E3/out/E3.elf:1a000000 A __vectors_start__
+projects/E3/out/E3.elf:1a00252a 0000000c T Chip_ADC_SetResolution
+projects/E3/out/E3.elf:1a00440c 0000000c T __malloc_unlock
+projects/E3/out/E3.elf:1a001e64 0000002c T SysTick_Handler
+projects/E3/out/E3.elf:1a002354 00000040 T Chip_UART_SetBaud
+projects/E3/out/E3.elf:1a000166 00000002 W SPIFI_ADCHS_IRQHandler
+projects/E3/out/E3.elf:100022cd 00000001 B __lock___arc4random_mutex
+projects/E3/out/E3.elf:1a000558 00000002 W initialise_monitor_handles
+projects/E3/out/E3.elf:1a000166 00000002 W SDIO_IRQHandler
+projects/E3/out/E3.elf:1a0021bc 0000001c T Board_UARTGetChar
+projects/E3/out/E3.elf:1a001e00 00000064 T PendSV_Handler
+projects/E3/out/E3.elf:1a000ae8 000000ce T xQueueGenericSendFromISR
+projects/E3/out/E3.elf:1a000124 00000002 W NMI_Handler
+projects/E3/out/E3.elf:1a004874 R __exidx_end
+projects/E3/out/E3.elf:1a0000fc T __data_section_table_end
+projects/E3/out/E3.elf:1a000166 00000002 W UART1_IRQHandler
+projects/E3/out/E3.elf:100020bc 00000004 B pxCurrentTCB
+projects/E3/out/E3.elf:1a0005f2 0000000a T _fstat_r
+projects/E3/out/E3.elf:53ff74d6 A __valid_user_code_checksum
+projects/E3/out/E3.elf:1a004874 R _etext
+projects/E3/out/E3.elf:1a000166 00000002 W USB1_IRQHandler
+projects/E3/out/E3.elf:1a001738 00000018 T vTaskInternalSetTimeOutState
+projects/E3/out/E3.elf:1a000166 00000002 W TIMER3_IRQHandler
+projects/E3/out/E3.elf:1a002a0e 0000000c T Chip_Clock_GetBaseClocktHz
+projects/E3/out/E3.elf:1a000166 00000002 W UART0_IRQHandler
+projects/E3/out/E3.elf:1a000154 00000012 T bss_init
+projects/E3/out/E3.elf:1a001ec8 00000110 T xPortStartScheduler
+projects/E3/out/E3.elf:1a00383e 0000001c T memcpy
+projects/E3/out/E3.elf:1a001644 00000030 T vTaskPlaceOnEventList
+projects/E3/out/E3.elf:1a000166 00000002 W SGPIO_IRQHandler
+projects/E3/out/E3.elf:1a003650 0000000c T _cleanup_r
+projects/E3/out/E3.elf:1a001e90 00000038 W vPortSetupTimerInterrupt
+projects/E3/out/E3.elf:1a003180 T __aeabi_uldivmod
+projects/E3/out/E3.elf:100022d8 ? _noinit
+projects/E3/out/E3.elf:1a004080 00000010 T puts
+projects/E3/out/E3.elf:1a000720 00000016 T vPortFree
+projects/E3/out/E3.elf:100022c4 00000004 B SystemCoreClock
+projects/E3/out/E3.elf:1a002300 00000054 T Chip_UART_Init
+projects/E3/out/E3.elf:1a000166 00000002 W ADC0_IRQHandler
+projects/E3/out/E3.elf:1a001fd8 0000005c T vPortValidateInterruptPriority
+projects/E3/out/E3.elf:1a00012c 00000002 W UsageFault_Handler
+projects/E3/out/E3.elf:1a002a8c 0000004c T Chip_Clock_GetRate
+projects/E3/out/E3.elf:1a000daa 00000016 T vListInsertEnd
+projects/E3/out/E3.elf:1a003170 00000010 T printInitUart
+projects/E3/out/E3.elf:1a00225c 0000006c T Board_SetupClocking
+projects/E3/out/E3.elf:20008000 A __top_RamAHB32
+projects/E3/out/E3.elf:1a0031b0 000002d0 T __udivmoddi4
+projects/E3/out/E3.elf:1a000690 00000020 T _sbrk_r
+projects/E3/out/E3.elf:1a004528 00000004 T ExtRateIn
+projects/E3/out/E3.elf:1a000166 00000002 W IntDefaultHandler
+projects/E3/out/E3.elf:1a000166 00000002 W SSP0_SSP1_IRQHandler
+projects/E3/out/E3.elf:1a000300 T __CRP_WORD_END__
+projects/E3/out/E3.elf:1a000618 0000004e T _read_r
+projects/E3/out/E3.elf:1a000da4 00000006 T vListInitialiseItem
+projects/E3/out/E3.elf:1a000bb8 0000015c T xQueueReceive
+projects/E3/out/E3.elf:10002284 00000040 B xQueueRegistry
+projects/E3/out/E3.elf:1a00486c R __exidx_start
+projects/E3/out/E3.elf:100022ce 00000001 B __lock___env_recursive_mutex
+projects/E3/out/E3.elf:1a0002fc 00000004 T CRP_WORD
+projects/E3/out/E3.elf:100022cf 00000001 B __lock___sinit_recursive_mutex
+projects/E3/out/E3.elf:1a004830 00000004 T _global_impure_ptr
+projects/E3/out/E3.elf:1a0037f0 00000048 T __libc_init_array
+projects/E3/out/E3.elf:1a000166 00000002 W ADC1_IRQHandler
+projects/E3/out/E3.elf:1a0006b0 00000070 T pvPortMalloc
+projects/E3/out/E3.elf:1a000166 00000002 W RIT_WDT_IRQHandler
+projects/E3/out/E3.elf:1a000166 00000002 W FLASH_EEPROM_ATIMER_IRQHandler
+projects/E3/out/E3.elf:1a0021d8 00000030 T Board_Init
+projects/E3/out/E3.elf:1a0005e6 00000002 W _init
+projects/E3/out/E3.elf:1a000d8e 00000016 T vListInitialise
+projects/E3/out/E3.elf:1a0000c0 T __data_section_table
+projects/E3/out/E3.elf:1a001268 0000000c T xTaskGetTickCount
+projects/E3/out/E3.elf:1a000968 00000180 T xQueueGenericSend
+projects/E3/out/E3.elf:1a000166 00000002 W RTC_IRQHandler
+projects/E3/out/E3.elf:100022d8 B _ebss
+projects/E3/out/E3.elf:1a000166 00000002 W TIMER0_IRQHandler
+projects/E3/out/E3.elf:1a00055c 00000088 T Reset_Handler
+projects/E3/out/E3.elf:20010000 A __top_RamAHB_ETB16
+projects/E3/out/E3.elf:1a002c78 00000038 T Chip_I2C_SetClockRate
+projects/E3/out/E3.elf:1a001800 000000b4 T xTaskPriorityDisinherit
+projects/E3/out/E3.elf:1a000166 00000002 W LCD_IRQHandler
+projects/E3/out/E3.elf:1a002744 0000004c T Chip_Clock_EnableCrystal
+projects/E3/out/E3.elf:100022d0 00000001 B __lock___malloc_recursive_mutex
+projects/E3/out/E3.elf:1a000166 00000002 W M4_IRQHandler
+projects/E3/out/E3.elf:10008000 A __top_RamLoc32
+projects/E3/out/E3.elf:1a0016ac 0000008c T xTaskRemoveFromEventList
+projects/E3/out/E3.elf:1a000e48 0000001c W vApplicationMallocFailedHook
+projects/E3/out/E3.elf:1a000136 0000001e T data_init
+projects/E3/out/E3.elf:1a0047d0 00000020 T __sf_fake_stderr
+projects/E3/out/E3.elf:1a002c54 00000024 T Chip_I2C_Init
+projects/E3/out/E3.elf:10000000 00000004 D leds
+projects/E3/out/E3.elf:1a00036c 0000005c T keys_Init
+projects/E3/out/E3.elf:1a00383c 00000002 T __retarget_lock_release_recursive
+projects/E3/out/E3.elf:1a002900 0000006c T Chip_Clock_GetMainPLLHz
+projects/E3/out/E3.elf:1a0046e8 000000e6 T gpioPinsInit
+projects/E3/out/E3.elf:1a000e1c 0000002c W vAssertCalled
+projects/E3/out/E3.elf:1a002cdc 00000012 T Chip_SSP_SetClockRate
+projects/E3/out/E3.elf:1a0039ea 00000024 T __sfputs_r
+projects/E3/out/E3.elf:1a003688 0000000c T __sfp_lock_acquire
+projects/E3/out/E3.elf:1a004360 T memchr
+projects/E3/out/E3.elf:1a001750 00000084 T xTaskCheckForTimeOut
+projects/E3/out/E3.elf:1a00386c 0000009c T _free_r
+projects/E3/out/E3.elf:1a0029e8 00000026 T Chip_Clock_GetBaseClock
+projects/E3/out/E3.elf:100000ac B _bss
+projects/E3/out/E3.elf:1a0024f8 00000032 T Chip_ADC_SetSampleRate
+projects/E3/out/E3.elf:1a001258 00000010 T vTaskSuspendAll
+projects/E3/out/E3.elf:10000004 00000004 D teclas
+projects/E3/out/E3.elf:1a002cee 0000003e T Chip_SSP_SetBitRate
+projects/E3/out/E3.elf:1a000df4 00000026 T uxListRemove
+projects/E3/out/E3.elf:1a000166 00000002 W I2S0_I2S1_QEI_IRQHandler
+projects/E3/out/E3.elf:1a002c30 00000002 T Chip_GPIO_Init
+projects/E3/out/E3.elf:1a004554 00000004 T OscRateIn
+projects/E3/out/E3.elf:1a002db8 0000007c T uartInit
+projects/E3/out/E3.elf:100022d8 ? _end_noinit
+projects/E3/out/E3.elf:10008000 A _vStackTop
+projects/E3/out/E3.elf:1a000500 00000058 T tarea_led
+projects/E3/out/E3.elf:1a001578 000000cc T vTaskSwitchContext
+projects/E3/out/E3.elf:1a001674 00000038 T vTaskPlaceOnEventListRestricted
+projects/E3/out/E3.elf:1a000124 T __bss_section_table_end
+projects/E3/out/E3.elf:1a0005e8 0000000a T _close_r
+projects/E3/out/E3.elf:10002240 00000004 B queue_tec_pulsada
+projects/E3/out/E3.elf:1a002e68 000001ac T gpioInit
+projects/E3/out/E3.elf:1a0019c8 0000006c T xTimerGenericCommand
+projects/E3/out/E3.elf:1a0041bc 000000dc T __swsetup_r
+projects/E3/out/E3.elf:1a000e64 0000001c W vApplicationStackOverflowHook
+projects/E3/out/E3.elf:1a003480 00000002 W __aeabi_ldiv0
+projects/E3/out/E3.elf:1a003728 0000008c T __sfp
+projects/E3/out/E3.elf:1a0036ac 0000000c T __sinit_lock_release
+projects/E3/out/E3.elf:1a004090 00000022 T __sread
+projects/E3/out/E3.elf:1a0030e8 0000001c T USB0_IRQHandler
+projects/E3/out/E3.elf:1a004400 0000000c T __malloc_lock
+projects/E3/out/E3.elf:1a0021a8 00000014 T Board_UARTPutChar
+projects/E3/out/E3.elf:1a000166 00000002 W SCT_IRQHandler
+projects/E3/out/E3.elf:1a003590 00000078 T _fflush_r
+projects/E3/out/E3.elf:1a0047f0 00000020 T __sf_fake_stdin
+projects/E3/out/E3.elf:1a0027ac 0000001c T Chip_Clock_GetDividerDivisor
+projects/E3/out/E3.elf:1a0002fc T __CRP_WORD_START__
+projects/E3/out/E3.elf:1a00383a 00000002 T __retarget_lock_acquire_recursive
+projects/E3/out/E3.elf:1a00385a 00000010 T memset
+projects/E3/out/E3.elf:1a000128 00000002 W MemManage_Handler
+projects/E3/out/E3.elf:1a00047c 00000084 T main
+projects/E3/out/E3.elf:1a003838 00000002 T __retarget_lock_init_recursive
+projects/E3/out/E3.elf:1a000dc0 00000034 T vListInsert
+projects/E3/out/E3.elf:2000c000 A __top_RamAHB16
+projects/E3/out/E3.elf:1008a000 A __top_RamLoc40
+projects/E3/out/E3.elf:1a001d60 00000024 T SVC_Handler
+projects/E3/out/E3.elf:1a00410e 00000008 T __sclose
+projects/E3/out/E3.elf:1a001978 00000050 T xTimerCreateTimerTask
+projects/E3/out/E3.elf:1a003908 000000b4 T _malloc_r
+projects/E3/out/E3.elf:1a001488 000000a4 T vTaskDelayUntil
+projects/E3/out/E3.elf:1a002a1c 0000003c T Chip_Clock_EnableOpts
+projects/E3/out/E3.elf:1a002212 00000008 T __stdio_getchar
+projects/E3/out/E3.elf:1a00091e 00000048 T xQueueGenericCreate
+projects/E3/out/E3.elf:1a0027c8 000000b8 T Chip_Clock_GetClockInputHz
+projects/E3/out/E3.elf:1a002880 00000080 T Chip_Clock_CalcMainPLLValue
+projects/E3/out/E3.elf:1a002d64 00000038 T SystemInit
+projects/E3/out/E3.elf:1a0000fc T __bss_section_table
+projects/E3/out/E3.elf:1a003014 0000006a T gpioWrite
+projects/E3/out/E3.elf:1a0005e4 00000002 W _fini
+projects/E3/out/E3.elf:1a003f74 00000030 T iprintf
+projects/E3/out/E3.elf:1a00138c 000000fc T xTaskResumeAll
+projects/E3/out/E3.elf:1a0011d4 00000084 T vTaskStartScheduler
+projects/E3/out/E3.elf:1a0003c8 00000098 T keys_Update
+projects/E3/out/E3.elf:1a0024b8 00000040 T Chip_ADC_Init
+projects/E3/out/E3.elf:100022c8 00000004 B g_pUsbApi
+projects/E3/out/E3.elf:1a002224 00000038 T Board_SetupMuxing
+projects/E3/out/E3.elf:1a002394 000000dc T Chip_UART_SetBaudFDR
+projects/E3/out/E3.elf:1a000666 00000028 T _write_r
+projects/E3/out/E3.elf:1a000166 00000002 W SPI_DAC_IRQHandler
+projects/E3/out/E3.elf:10002244 00000040 B keys_data
+projects/E3/out/E3.elf:1a000166 00000002 W ETH_IRQHandler
+projects/E3/out/E3.elf:1a003c60 000000ea T _printf_common
+projects/E3/out/E3.elf:10000048 00000004 D _impure_ptr
+projects/E3/out/E3.elf:1a003484 0000010c T __sflush_r
+projects/E3/out/E3.elf:10000000 ? _end_uninit_RESERVED
+projects/E3/out/E3.elf:1b000000 T __core_m0app_START__
+projects/E3/out/E3.elf:1a000166 00000002 W CAN0_IRQHandler
+projects/E3/out/E3.elf:10000000 D _data
+projects/E3/out/E3.elf:1a0017d4 0000000c T vTaskMissedYield
+projects/E3/out/E3.elf:100022d8 B _pvHeapStart
+projects/E3/out/E3.elf:1a000166 00000002 W UART2_CAN1_IRQHandler
+projects/E3/out/E3.elf:1a000124 T __section_table_end
+projects/E3/out/E3.elf:1a002d2c 00000038 T Chip_SSP_Init
+projects/E3/out/E3.elf:1a000d14 00000028 T vQueueAddToRegistry
+projects/E3/out/E3.elf:1a001274 00000118 T xTaskIncrementTick
+projects/E3/out/E3.elf:1a004298 00000048 T __swhatbuf_r
+projects/E3/out/E3.elf:1a002184 00000024 T Board_Debug_Init
+projects/E3/out/E3.elf:1a002208 0000000a T __stdio_putchar
+projects/E3/out/E3.elf:1a000878 00000084 T xQueueGenericReset
+projects/E3/out/E3.elf:100000ac D _edata
+projects/E3/out/E3.elf:1a002c34 00000020 T Chip_I2C_EventHandler
+projects/E3/out/E3.elf:1a000166 00000002 W M0SUB_IRQHandler
+projects/E3/out/E3.elf:100022d1 00000001 B __lock___at_quick_exit_mutex
+projects/E3/out/E3.elf:1a001170 00000062 T xTaskCreate
+projects/E3/out/E3.elf:1a002ad8 00000158 T Chip_SetupCoreClock
+projects/E3/out/E3.elf:1a0040b2 00000038 T __swrite
+projects/E3/out/E3.elf:1a003a10 00000250 T _vfiprintf_r
+projects/E3/out/E3.elf:1a000000 00000040 T g_pfnVectors
+projects/E3/out/E3.elf:1a0037b4 0000003c T _fwalk_reent
+projects/E3/out/E3.elf:1a002538 00000014 T SystemCoreClockUpdate
+projects/E3/out/E3.elf:1a000460 0000001a T task_tecla
+projects/E3/out/E3.elf:1a000166 00000002 W DMA_IRQHandler
+projects/E3/out/E3.elf:1a00152c 0000004c T vTaskDelay
+projects/E3/out/E3.elf:1a000166 00000002 W EVRT_IRQHandler
+projects/E3/out/E3.elf:1b080000 A __top_MFlashB512
+projects/E3/out/E3.elf:1a003694 0000000c T __sfp_lock_release
+projects/E3/out/E3.elf:1a004810 00000020 T __sf_fake_stdout
+projects/E3/out/E3.elf:1a0017e0 00000020 T xTaskGetSchedulerState
+projects/E3/out/E3.elf:1a003480 00000002 W __aeabi_idiv0
+projects/E3/out/E3.elf:1a00012a 00000002 W BusFault_Handler
+projects/E3/out/E3.elf:100022d2 00000001 B __lock___dd_hash_mutex
+projects/E3/out/E3.elf:1a0042e0 00000080 T __smakebuf_r
+projects/E3/out/E3.elf:100022d3 00000001 B __lock___tz_mutex
+projects/E3/out/E3.elf:1a001d34 0000002c T pxPortInitialiseStack
+projects/E3/out/E3.elf:1a003d4c 00000228 T _printf_i
+projects/E3/out/E3.elf:1a002a58 00000034 T Chip_Clock_Enable
+projects/E3/out/E3.elf:1a000166 00000002 W UART3_IRQHandler
+projects/E3/out/E3.elf:1000223c 00000004 B __malloc_sbrk_start
+projects/E3/out/E3.elf:1a000166 00000002 W MCPWM_IRQHandler
+projects/E3/out/E3.elf:1a00307e 00000068 T gpioRead
+projects/E3/out/E3.elf:1a003104 0000006c T boardInit
+projects/E3/out/E3.elf:1a001d84 00000044 T vPortEnterCritical
+projects/E3/out/E3.elf:10002238 00000004 B __malloc_free_list
+projects/E3/out/E3.elf:1a000040 00000080 T g_pfnVendorVectors
+projects/E3/out/E3.elf:1a003a10 00000250 T _vfprintf_r
+projects/E3/out/E3.elf:1a000166 00000002 W GINT1_IRQHandler
+projects/E3/out/E3.elf:1a002990 00000058 T Chip_Clock_SetBaseClock
+projects/E3/out/E3.elf:1a002d9c 0000001c T cyclesCounterInit
+projects/E3/out/E3.elf:1a000166 00000002 W GPIO4_IRQHandler
+projects/E3/out/E3.elf:100022d4 00000001 B __lock___sfp_recursive_mutex
+projects/E3/out/E3.elf:1a0036a0 0000000c T __sinit_lock_acquire
+projects/E3/out/E3.elf:1a0022c8 0000000c T Board_SystemInit
